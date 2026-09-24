@@ -9,7 +9,7 @@ import os
 # НАСТРОЙКИ
 # =========================
 
-URL = "https://skyvora.app/sub/2a2fd40b4f429240933c078a43862344"
+URL = "https://d.vrask.fit/sub/2a2fd40b4f429240933c078a43862344"
 
 GIST_TOKEN = os.environ["GIST_TOKEN"]
 GIST_ID = os.environ["GIST_ID"]
