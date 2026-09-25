@@ -1,4 +1,3 @@
-
 import json
 import base64
 import urllib.request
@@ -31,14 +30,16 @@ with urllib.request.urlopen(req, timeout=30) as r:
     )
 
 # =========================
-# ГЕНЕРАЦИЯ VLESS
+# ГЕНЕРАЦИЯ VLESS REALITY
 # =========================
 
 out = []
 
-for s in data["servers"]:
+for s in data.get("servers", []):
 
     sid = s["id"]
+    name = s.get("name", sid)
+
     uuid = s["uuid"]
 
     sni = s.get("sni", "")
@@ -48,12 +49,40 @@ for s in data["servers"]:
     fp = s.get("fingerprint", "chrome")
     short_id = s["short_id"]
 
-    endpoints = s["endpoints"]
+    endpoints = s.get("endpoints", [])
 
-    ports = s.get(
-        "ports",
-        [s["port"]]
-    )
+    # Новый JSON:
+    # ports = [2094], [2087], [2092] и т.д.
+    #
+    # Старый JSON:
+    # ports = [443, 2053, 2083]
+    #
+    # Поэтому поддерживаем оба варианта.
+
+    ports = s.get("ports")
+
+    if not ports:
+        if "port" in s:
+            ports = [s["port"]]
+        else:
+            print(f"Пропуск {sid}: нет port/ports")
+            continue
+
+    # =========================
+    # ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ
+    # =========================
+
+    relayed = s.get("relayed", False)
+    hop = s.get("hop", "")
+
+    if relayed:
+        route_type = "relay"
+    else:
+        route_type = "direct"
+
+    # =========================
+    # ГЕНЕРАЦИЯ
+    # =========================
 
     for ip in endpoints:
 
@@ -67,16 +96,44 @@ for s in data["servers"]:
                 "pbk": pbk,
                 "sid": short_id,
                 "type": "tcp",
-                "flow": flow,
             }
+
+            # flow добавляем только если он реально указан
+            if flow:
+                params["flow"] = flow
+
+            # Имя:
+            #
+            # Skyvora-de-1-103.121.49.202-2094-relay-domestic
+            #
+            # Для обычных серверов:
+            #
+            # Skyvora-de-1-50.7.86.205-443-direct
+
+            parts = [
+                "Skyvora",
+                sid,
+                ip,
+                str(port),
+                route_type,
+            ]
+
+            if hop:
+                parts.append(hop)
+
+            remark = "-".join(parts)
 
             link = (
                 f"vless://{uuid}@{ip}:{port}"
                 f"?{urlencode(params)}"
-                f"#{quote('Skyvora-' + sid + '-' + ip + '-' + str(port))}"
+                f"#{quote(remark)}"
             )
 
             out.append(link)
+
+# =========================
+# ТЕКСТ
+# =========================
 
 text = "\n".join(out) + "\n"
 
@@ -85,8 +142,31 @@ text = "\n".join(out) + "\n"
 # =========================
 
 encoded = base64.b64encode(
-    text.encode()
-).decode()
+    text.encode("utf-8")
+).decode("ascii")
+
+# =========================
+# СТАТИСТИКА
+# =========================
+
+relay_count = sum(
+    1
+    for s in data.get("servers", [])
+    if s.get("relayed", False)
+)
+
+direct_count = len(data.get("servers", [])) - relay_count
+
+print("================================")
+print("Skyvora")
+print("================================")
+print("Region:", data.get("region"))
+print("Config version:", data.get("config", {}).get("version"))
+print("Серверов:", len(data.get("servers", [])))
+print("Direct:", direct_count)
+print("Relay:", relay_count)
+print("VLESS конфигов:", len(out))
+print("================================")
 
 # =========================
 # GITHUB GIST UPDATE
@@ -132,7 +212,6 @@ with urllib.request.urlopen(req, timeout=30) as r:
         r.read().decode("utf-8")
     )
 
+print()
 print("Готово!")
-print("Серверов:", len(data["servers"]))
-print("Конфигов:", len(out))
 print("Gist обновлён:", result.get("html_url"))
