@@ -10,6 +10,9 @@ import os
 
 URL = "https://d.irhgiuj.live/sub/2a2fd40b4f429240933c078a43862344"
 
+# Нужный регион
+COUNTRY = "TM"
+
 GIST_TOKEN = os.environ["GIST_TOKEN"]
 GIST_ID = os.environ["GIST_ID"]
 
@@ -20,13 +23,25 @@ GIST_ID = os.environ["GIST_ID"]
 req = urllib.request.Request(
     URL,
     headers={
-        "User-Agent": "Mozilla/5.0"
+        "User-Agent": "Mozilla/5.0",
+        "Accept": "application/json",
+        "CF-IPCountry": COUNTRY,
     }
 )
 
 with urllib.request.urlopen(req, timeout=30) as r:
     data = json.loads(
         r.read().decode("utf-8")
+    )
+
+# =========================
+# ПРОВЕРКА РЕГИОНА
+# =========================
+
+if data.get("region") != COUNTRY:
+    raise RuntimeError(
+        f"API вернул регион {data.get('region')}, "
+        f"а ожидался {COUNTRY}. Gist НЕ будет обновлён."
     )
 
 # =========================
@@ -51,14 +66,6 @@ for s in data.get("servers", []):
 
     endpoints = s.get("endpoints", [])
 
-    # Новый JSON:
-    # ports = [2094], [2087], [2092] и т.д.
-    #
-    # Старый JSON:
-    # ports = [443, 2053, 2083]
-    #
-    # Поэтому поддерживаем оба варианта.
-
     ports = s.get("ports")
 
     if not ports:
@@ -69,7 +76,7 @@ for s in data.get("servers", []):
             continue
 
     # =========================
-    # ДОПОЛНИТЕЛЬНЫЕ ПАРАМЕТРЫ
+    # RELAY / DIRECT
     # =========================
 
     relayed = s.get("relayed", False)
@@ -98,17 +105,8 @@ for s in data.get("servers", []):
                 "type": "tcp",
             }
 
-            # flow добавляем только если он реально указан
             if flow:
                 params["flow"] = flow
-
-            # Имя:
-            #
-            # Skyvora-de-1-103.121.49.202-2094-relay-domestic
-            #
-            # Для обычных серверов:
-            #
-            # Skyvora-de-1-50.7.86.205-443-direct
 
             parts = [
                 "Skyvora",
@@ -160,7 +158,8 @@ direct_count = len(data.get("servers", [])) - relay_count
 print("================================")
 print("Skyvora")
 print("================================")
-print("Region:", data.get("region"))
+print("Запрошенный регион:", COUNTRY)
+print("Полученный регион:", data.get("region"))
 print("Config version:", data.get("config", {}).get("version"))
 print("Серверов:", len(data.get("servers", [])))
 print("Direct:", direct_count)
