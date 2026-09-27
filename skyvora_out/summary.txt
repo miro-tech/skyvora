@@ -8,10 +8,10 @@ OCEANIA      cc=AU region=AU  rec=sg-1  servers= 9 vless= 312 direct= 9 relay= 0
 IR_TM        cc=TM region=TM  rec=None  servers= 9 vless=  14 direct= 1 relay= 8 order=['nl-1', 'fr-1', 'de-1', 'ca-1', 'us-1', 'sg-1', 'jp-1', 'hk-1']
 AF_SPECIAL   cc=AF region=AF  rec=de-1  servers= 9 vless=1356 direct= 3 relay= 6 order=['de-1', 'sg-1', 'nl-1', 'fr-1', 'us-1', 'ca-1', 'hk-1', 'jp-1']
 BY_EMPTY     cc=BY region=BY  rec=None  servers= 9 vless= 312 direct= 9 relay= 0 order=[]
-CN_SPECIAL   cc=CN region=CN  rec=jp-1  servers=10 vless= 200 direct= 5 relay= 5 order=['us-1', 'jp-1', 'nl-1', 'de-1', 'ca-1', 'fr-1', 'sg-1', 'hk-1', 'hk-2']
+CN_SPECIAL   cc=CN region=CN  rec=jp-1  servers=10 vless= 221 direct= 6 relay= 4 order=['us-1', 'jp-1', 'nl-1', 'de-1', 'ca-1', 'fr-1', 'sg-1', 'hk-1', 'hk-2']
 RU           cc=RU region=RU  rec=None  servers= 9 vless= 129 direct= 2 relay= 7 order=['de-1', 'nl-1', 'us-1', 'sg-1', 'ca-1', 'jp-1', 'hk-1', 'fr-1']
 UA           cc=UA region=UA  rec=de-1  servers= 9 vless= 312 direct= 9 relay= 0 order=['nl-1', 'de-1', 'sg-1', 'us-1', 'ca-1', 'jp-1', 'hk-1', 'fr-1']
 
 unique auto_order patterns: 13
-total vless (with duplicates across profiles): 4571
-unique vless: 4571
+total vless (with duplicates across profiles): 4592
+unique vless: 4592
