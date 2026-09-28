@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1790633338,
+  "updated_at": 1790633940,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -74,10 +74,10 @@
       ]
     },
     "auto_order": [
-      "fr-1",
-      "nl-1",
-      "de-1",
       "ca-1",
+      "nl-1",
+      "fr-1",
+      "de-1",
       "us-1",
       "sg-1",
       "jp-1",
@@ -96,10 +96,10 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30077,
-      "uuid": "5f48cae8-a6df-4c78-ac05-ed3e029d0a86",
+      "port": 30076,
+      "uuid": "8fcab270-b995-4fe6-9768-336f01fdbe50",
       "flow": "xtls-rprx-vision",
-      "sni": "www.otto.de",
+      "sni": "www.telekom.de",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
@@ -107,15 +107,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30077
+        30076
       ],
       "tier": "free",
       "cdn": {
-        "host": "93.119.228.197",
+        "host": "img.irsca.space",
         "path": "/xvyv9xc2270",
         "port": 443,
         "ips": [
-          "93.119.228.197"
+          "94.247.42.61"
         ]
       },
       "relayed": true,
@@ -127,10 +127,10 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30004,
-      "uuid": "01acd619-1831-4988-bfa2-6ed91e3cabc4",
+      "port": 30003,
+      "uuid": "737e384f-b516-4c2a-a782-94456b271c22",
       "flow": "xtls-rprx-vision",
-      "sni": "www.ikea.com",
+      "sni": "www.booking.com",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
@@ -138,14 +138,14 @@
         "31.214.157.41"
       ],
       "ports": [
-        30004
+        30003
       ],
       "cdn": {
-        "host": "media.irsca.space",
+        "host": "storage.frkuj.site",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "78.138.9.72"
+          "176.10.119.155"
         ]
       },
       "fast": true,
@@ -158,10 +158,10 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30052,
-      "uuid": "1ff7c994-7016-4978-880e-d5dfce331fe4",
+      "port": 30051,
+      "uuid": "4a1072ff-e1c2-4337-9b27-d00c540bba60",
       "flow": "xtls-rprx-vision",
-      "sni": "www.free.fr",
+      "sni": "www.sorbonne-universite.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
@@ -169,14 +169,14 @@
         "31.214.157.41"
       ],
       "ports": [
-        30052
+        30051
       ],
       "cdn": {
-        "host": "188.214.60.45",
+        "host": "news.frkop.online",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "188.214.60.45"
+          "79.132.130.200"
         ]
       },
       "fast": true,
@@ -189,10 +189,10 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30018,
-      "uuid": "4390618b-fee8-43a0-b8a9-3419c5c4b7bb",
+      "port": 30017,
+      "uuid": "cd75207b-abd2-4e86-9ada-3a0ff7e19ad6",
       "flow": "xtls-rprx-vision",
-      "sni": "www.cnn.com",
+      "sni": "www.target.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
@@ -200,14 +200,14 @@
         "31.214.157.41"
       ],
       "ports": [
-        30018
+        30017
       ],
       "cdn": {
-        "host": "188.214.60.179",
+        "host": "news.frkop.online",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "188.214.60.179"
+          "79.132.130.200"
         ]
       },
       "relayed": true,
@@ -219,10 +219,10 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30062,
-      "uuid": "29c761af-ffaf-41a9-8147-d80f63bd4f62",
+      "port": 30061,
+      "uuid": "1521fd3d-5735-459d-a266-a44696b68ae0",
       "flow": "xtls-rprx-vision",
-      "sni": "www.utoronto.ca",
+      "sni": "www.telus.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
@@ -230,15 +230,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30062
+        30061
       ],
       "tier": "free",
       "cdn": {
-        "host": "93.119.228.175",
+        "host": "files.frkop.online",
         "path": "/ia3bfj3q7dx",
         "port": 443,
         "ips": [
-          "93.119.228.175"
+          "185.219.220.134"
         ]
       },
       "relayed": true,
@@ -250,10 +250,10 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30024,
-      "uuid": "3d5290f5-9e4d-431d-9a55-3ecb9488f44c",
+      "port": 30023,
+      "uuid": "ebb3eee6-63eb-4cb2-b413-c4e25ab56748",
       "flow": "xtls-rprx-vision",
-      "sni": "www.singaporeair.com",
+      "sni": "www.gov.sg",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
@@ -261,14 +261,14 @@
         "31.214.157.41"
       ],
       "ports": [
-        30024
+        30023
       ],
       "cdn": {
-        "host": "188.214.60.20",
+        "host": "cdn2.frkpo.store",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "188.214.60.20"
+          "176.10.119.214"
         ]
       },
       "relayed": true,
@@ -280,10 +280,10 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30047,
-      "uuid": "72501034-a54a-49c6-bc7d-cca8c6de9828",
+      "port": 30046,
+      "uuid": "b6c3c706-4065-4d93-bf07-a549c0a60896",
       "flow": "xtls-rprx-vision",
-      "sni": "www.hkt.com",
+      "sni": "www.hkust.edu.hk",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
@@ -291,15 +291,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30047
+        30046
       ],
       "tier": "free",
       "cdn": {
-        "host": "93.119.228.85",
+        "host": "files.frkop.online",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "93.119.228.85"
+          "185.219.220.134"
         ]
       },
       "relayed": true,
@@ -311,10 +311,10 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30034,
-      "uuid": "e03eded6-8234-4263-b9d1-e01170376046",
+      "port": 30033,
+      "uuid": "607bab0c-010f-40e6-8f63-97b5eaa38b1b",
       "flow": "xtls-rprx-vision",
-      "sni": "www.panasonic.com",
+      "sni": "www.nikkei.com",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
@@ -322,15 +322,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30034
+        30033
       ],
       "tier": "free",
       "cdn": {
-        "host": "img.irsca.space",
+        "host": "93.119.228.169",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "94.247.42.61"
+          "93.119.228.169"
         ]
       },
       "relayed": true,
@@ -343,7 +343,7 @@
       "flag": "🇮🇷",
       "protocol": "vless-reality",
       "port": 8443,
-      "uuid": "b1d888bd-38a9-4936-b515-3e5747d78445",
+      "uuid": "efb61451-ca0b-43f3-be6d-93fdbfae2c37",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
@@ -351,10 +351,10 @@
       "fingerprint": "chrome",
       "endpoints": [
         "50.7.245.202",
-        "198.16.113.221",
         "198.16.113.220",
         "198.16.113.222",
         "198.16.113.219",
+        "198.16.113.221",
         "198.16.113.218"
       ]
     }
