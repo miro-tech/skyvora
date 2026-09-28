@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "updated_at": 1790632738,
+  "tier": 0,
+  "region": "TM",
+  "relayed": [
+    "nl-1",
+    "us-1",
+    "sg-1",
+    "fr-1",
+    "jp-1",
+    "hk-1",
+    "ca-1",
+    "de-1"
+  ],
+  "config": {
+    "version": 148,
+    "probe": {
+      "settle_ms": 1500,
+      "timeout_ms": 15000,
+      "attempts": 3,
+      "gap_ms": 1000,
+      "url": "https://www.gstatic.com/generate_204",
+      "url_alt": "https://cp.cloudflare.com/generate_204"
+    },
+    "pick": {
+      "ip": "first"
+    },
+    "failover": {
+      "enabled": true,
+      "max": 3,
+      "total_budget_ms": 90000,
+      "retry_same": true
+    },
+    "pool": {
+      "size": 8,
+      "siblings": 3,
+      "sibling_order": "list",
+      "fragment": true,
+      "cdn": "first",
+      "cdn_edges": 1,
+      "tolerance_ms": 200,
+      "interval": "1m",
+      "cross_servers": 2,
+      "cross_per_server": 2
+    },
+    "recovery": {
+      "interval_ms": 15000,
+      "checks": 10
+    },
+    "refresh": {
+      "while_connected_min": 10
+    },
+    "messages": {
+      "warn_text": "",
+      "help_url": ""
+    },
+    "emergency": {
+      "cdn_only": true,
+      "auto_skip": []
+    },
+    "api": {
+      "hosts": [
+        "d.vrask.fit",
+        "d.irhgi.lol",
+        "d.vrask.world",
+        "d.irhgiuj.live",
+        "media-assets-637272743690.europe-west1.run.app"
+      ],
+      "ips": [
+        "31.214.157.118",
+        "31.214.157.41",
+        "80.77.25.249"
+      ]
+    },
+    "auto_order": [
+      "fr-1",
+      "nl-1",
+      "de-1",
+      "ca-1",
+      "us-1",
+      "sg-1",
+      "jp-1",
+      "hk-1"
+    ],
+    "auto_spread": [
+      "fr-1",
+      "ca-1"
+    ],
+    "entry_spread": 12
+  },
+  "servers": [
+    {
+      "id": "de-1",
+      "name": "Germany",
+      "country": "DE",
+      "flag": "🇩🇪",
+      "protocol": "vless-reality",
+      "port": 30075,
+      "uuid": "0edc6bc5-49b4-4eb5-823a-74fc5b5e0f1a",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.mercedes-benz.de",
+      "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
+      "short_id": "55986a94e2228791",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30075
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "188.214.60.45",
+        "path": "/xvyv9xc2270",
+        "port": 443,
+        "ips": [
+          "188.214.60.45"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "nl-1",
+      "name": "Netherlands",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "protocol": "vless-reality",
+      "port": 30002,
+      "uuid": "69d80702-c25d-4ad4-9746-b29c3ac806eb",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.ing.nl",
+      "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
+      "short_id": "906609ffc9e8d9fe",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30002
+      ],
+      "cdn": {
+        "host": "93.119.228.85",
+        "path": "/9p624ojqjs3",
+        "port": 443,
+        "ips": [
+          "93.119.228.85"
+        ]
+      },
+      "fast": true,
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "fr-1",
+      "name": "France",
+      "country": "FR",
+      "flag": "🇫🇷",
+      "protocol": "vless-reality",
+      "port": 30050,
+      "uuid": "4dbb57d0-b510-4ff7-a392-ba823a46cc7a",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.sfr.fr",
+      "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
+      "short_id": "716b7eba38125f3a",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30050
+      ],
+      "cdn": {
+        "host": "api2.frkpo.store",
+        "path": "/lmgdif3sk8i",
+        "port": 443,
+        "ips": [
+          "194.76.227.74"
+        ]
+      },
+      "fast": true,
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "us-1",
+      "name": "United States",
+      "country": "US",
+      "flag": "🇺🇸",
+      "protocol": "vless-reality",
+      "port": 30016,
+      "uuid": "9d1b4305-f726-41c3-84a0-5b3cdc690d8f",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.amd.com",
+      "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
+      "short_id": "66d62ef550107695",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30016
+      ],
+      "cdn": {
+        "host": "93.119.228.207",
+        "path": "/kqdyeo2k4b1",
+        "port": 443,
+        "ips": [
+          "93.119.228.207"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "ca-1",
+      "name": "Canada",
+      "country": "CA",
+      "flag": "🇨🇦",
+      "protocol": "vless-reality",
+      "port": 30060,
+      "uuid": "fcbf3a42-9459-4679-883c-6ceaba9d5ae7",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.shopify.com",
+      "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
+      "short_id": "8a9725533854a7e8",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30060
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "188.214.60.150",
+        "path": "/ia3bfj3q7dx",
+        "port": 443,
+        "ips": [
+          "188.214.60.150"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "sg-1",
+      "name": "Singapore",
+      "country": "SG",
+      "flag": "🇸🇬",
+      "protocol": "vless-reality",
+      "port": 30022,
+      "uuid": "10a5608f-e3ea-4397-8b98-bf01b8e67d54",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.straitstimes.com",
+      "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
+      "short_id": "deccc6fac1ddb0ff",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30022
+      ],
+      "cdn": {
+        "host": "93.119.228.70",
+        "path": "/axzfrv47qcn",
+        "port": 443,
+        "ips": [
+          "93.119.228.70"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "hk-1",
+      "name": "Hong Kong",
+      "country": "HK",
+      "flag": "🇭🇰",
+      "protocol": "vless-reality",
+      "port": 30045,
+      "uuid": "53e27f67-ea5c-4b56-b247-606f3804907e",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.hko.gov.hk",
+      "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
+      "short_id": "08a4b1f473932632",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30045
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "93.119.228.175",
+        "path": "/zmeadqv620k",
+        "port": 443,
+        "ips": [
+          "93.119.228.175"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "jp-1",
+      "name": "Japan",
+      "country": "JP",
+      "flag": "🇯🇵",
+      "protocol": "vless-reality",
+      "port": 30032,
+      "uuid": "aa45ed44-9191-4118-8bda-c48c8b98b82c",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.nintendo.co.jp",
+      "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
+      "short_id": "bb472a184677af64",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "31.214.157.41"
+      ],
+      "ports": [
+        30032
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "cdn2.frkpo.store",
+        "path": "/pmcxbjzdau6",
+        "port": 443,
+        "ips": [
+          "176.10.119.214"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "ir-3",
+      "name": "Iran",
+      "country": "IR",
+      "flag": "🇮🇷",
+      "protocol": "vless-reality",
+      "port": 8443,
+      "uuid": "4d63d8d0-c449-4131-8494-1a006b3a307a",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
+      "short_id": "69984b9e02545831",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "50.7.245.202",
+        "198.16.113.219",
+        "198.16.113.222",
+        "198.16.113.218",
+        "198.16.113.220",
+        "198.16.113.221"
+      ]
+    }
+  ]
+}
