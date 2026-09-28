@@ -23,7 +23,7 @@ from urllib.parse import quote, urlencode
 # НАСТРОЙКИ
 # ============================================================
 
-URL = "https://d.irhgiuj.live/sub/2a2fd40b4f429240933c078a43862344"
+URL = "https://d.irhgiuj.live/sub/2a2fd40b4f429240933c078a43862344?d=7f3a9c21-6e48-4b72-a5d1-91c8e7b4f260"
 
 GIST_TOKEN = os.environ["GIST_TOKEN"]
 GIST_ID = os.environ["GIST_ID"]
