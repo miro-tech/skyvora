@@ -116,7 +116,7 @@ def try_hosts(
 
     headers = {
         "Accept": "application/json",
-        "User-Agent": "okhttp/4.12.0",
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 14; Pixel 7 Build/UQ1A)",
     }
 
     if (
