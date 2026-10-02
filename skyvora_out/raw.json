@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1790969489,
+  "updated_at": 1790971292,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -74,10 +74,10 @@
       ]
     },
     "auto_order": [
-      "fr-1",
-      "nl-1",
-      "de-1",
       "ca-1",
+      "nl-1",
+      "fr-1",
+      "de-1",
       "us-1",
       "sg-1",
       "jp-1",
@@ -96,37 +96,37 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30071,
-      "uuid": "7e9bbfdf-5f19-4e83-b2b6-61ae41ebc5c0",
+      "port": 30072,
+      "uuid": "ff14466c-51c0-439f-bba0-c20eda3f4fd9",
       "flow": "xtls-rprx-vision",
-      "sni": "www.zeit.de",
+      "sni": "www.tagesschau.de",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30071
+        30072
       ],
       "tier": "free",
       "cdn": {
-        "host": "www.quietmaplestudio.com",
+        "host": "quietmaplestudio.com",
         "path": "/xvyv9xc2270",
         "port": 443,
         "ips": [
-          "94.247.42.83"
+          "176.10.111.120"
         ]
       },
       "relayed": true,
@@ -138,36 +138,36 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30008,
-      "uuid": "7efb6ae3-6fd5-4217-a630-bc1faae6f5b7",
+      "port": 30009,
+      "uuid": "f223bb00-0ad5-42ce-abc1-1b097718e1e7",
       "flow": "xtls-rprx-vision",
-      "sni": "www.asml.com",
+      "sni": "www.bijenkorf.nl",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30008
+        30009
       ],
       "cdn": {
-        "host": "176.10.111.74",
+        "host": "www.tidewaterphotolab.com",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "176.10.111.74"
+          "94.247.42.175"
         ]
       },
       "fast": true,
@@ -180,36 +180,36 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30056,
-      "uuid": "4be0ee97-7e8b-49b1-90da-9c82e54c78dc",
+      "port": 30057,
+      "uuid": "05c9a44d-c55b-49e0-890f-d700b8c9aa84",
       "flow": "xtls-rprx-vision",
-      "sni": "www.laposte.fr",
+      "sni": "www.peugeot.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30056
+        30057
       ],
       "cdn": {
-        "host": "tidewaterphotolab.com",
+        "host": "www.copperleafinteriors.net",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "94.247.42.183"
+          "94.247.42.12"
         ]
       },
       "fast": true,
@@ -222,36 +222,36 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30012,
-      "uuid": "138b544c-1161-48c2-b846-81bf976885b4",
+      "port": 30013,
+      "uuid": "a14b2e0a-0e1b-4440-a92b-8664869650f7",
       "flow": "xtls-rprx-vision",
-      "sni": "www.espn.com",
+      "sni": "www.cisco.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30012
+        30013
       ],
       "cdn": {
-        "host": "185.189.149.143",
+        "host": "94.247.42.112",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "185.189.149.143"
+          "94.247.42.112"
         ]
       },
       "relayed": true,
@@ -263,37 +263,37 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30066,
-      "uuid": "8ab02cb9-0017-4113-ad65-4b4c7f3c99bb",
+      "port": 30067,
+      "uuid": "eece16d3-2a6b-4e7a-8cd0-54dd642d4cac",
       "flow": "xtls-rprx-vision",
-      "sni": "www.lcbo.com",
+      "sni": "www.theglobeandmail.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30066
+        30067
       ],
       "tier": "free",
       "cdn": {
-        "host": "94.247.42.112",
+        "host": "www.tidewaterphotolab.com",
         "path": "/ia3bfj3q7dx",
         "port": 443,
         "ips": [
-          "94.247.42.112"
+          "94.247.42.175"
         ]
       },
       "relayed": true,
@@ -305,36 +305,36 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30028,
-      "uuid": "84f5cf15-d45a-4b34-b3ac-b26379ce8cb0",
+      "port": 30029,
+      "uuid": "983c7e06-85dd-49b8-acd1-62a8f414fed8",
       "flow": "xtls-rprx-vision",
-      "sni": "www.carousell.sg",
+      "sni": "www.courts.com.sg",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30028
+        30029
       ],
       "cdn": {
-        "host": "tidewaterphotolab.com",
+        "host": "quietmaplestudio.com",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "94.247.42.183"
+          "176.10.111.120"
         ]
       },
       "relayed": true,
@@ -346,37 +346,37 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30041,
-      "uuid": "7b461057-2ee4-4d8a-b716-3884064876cc",
+      "port": 30042,
+      "uuid": "5cba63da-ca32-4969-ad58-7f126de553da",
       "flow": "xtls-rprx-vision",
-      "sni": "www.hangseng.com",
+      "sni": "www.hkex.com.hk",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30041
+        30042
       ],
       "tier": "free",
       "cdn": {
-        "host": "185.189.149.143",
+        "host": "94.247.42.112",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "185.189.149.143"
+          "94.247.42.112"
         ]
       },
       "relayed": true,
@@ -388,37 +388,37 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30038,
-      "uuid": "c3ca98c3-2c92-4712-8cba-411a889bab17",
+      "port": 30039,
+      "uuid": "93ad89f4-47a8-40ba-80e4-fe3bc8c97720",
       "flow": "xtls-rprx-vision",
-      "sni": "www.lovelive-anime.jp",
+      "sni": "www.docomo.ne.jp",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
-        "134.19.190.120",
-        "188.95.52.67",
-        "134.19.190.89",
-        "134.19.190.123",
-        "109.202.109.210",
-        "131.123.1.91",
+        "213.152.171.40",
+        "162.249.124.57",
+        "162.249.124.53",
         "188.95.52.116",
         "109.202.109.224",
-        "213.152.171.40",
+        "109.202.109.241",
         "213.152.171.46",
-        "188.95.52.30",
+        "131.123.1.13",
+        "188.95.52.67",
+        "103.121.49.145",
+        "213.152.180.62",
         "162.249.124.38"
       ],
       "ports": [
-        30038
+        30039
       ],
       "tier": "free",
       "cdn": {
-        "host": "185.189.149.143",
+        "host": "176.10.119.133",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "185.189.149.143"
+          "176.10.119.133"
         ]
       },
       "relayed": true,
