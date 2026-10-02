@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1790929664,
+  "updated_at": 1790931471,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -96,10 +96,10 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30070,
-      "uuid": "b5e9cd5b-2102-4f58-8a49-5043793b25b6",
+      "port": 30072,
+      "uuid": "defd2539-d23a-429c-8a16-193a7b5ccf63",
       "flow": "xtls-rprx-vision",
-      "sni": "www.sueddeutsche.de",
+      "sni": "www.tagesschau.de",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
@@ -107,15 +107,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30070
+        30072
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.16.210",
+        "host": "131.123.16.46",
         "path": "/xvyv9xc2270",
         "port": 443,
         "ips": [
-          "131.123.16.210"
+          "131.123.16.46"
         ]
       },
       "relayed": true,
@@ -127,10 +127,10 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30007,
-      "uuid": "96e8076c-545d-41e9-bbc0-fe65c7930cfd",
+      "port": 30009,
+      "uuid": "75d27caf-9244-4655-8c61-ac2bb60c2c64",
       "flow": "xtls-rprx-vision",
-      "sni": "www.kpn.com",
+      "sni": "www.bijenkorf.nl",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
@@ -138,7 +138,7 @@
         "31.214.157.41"
       ],
       "ports": [
-        30007
+        30009
       ],
       "cdn": {
         "host": "131.123.16.218",
@@ -158,10 +158,10 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30055,
-      "uuid": "00c96bc5-f4d6-49b5-950d-3ca2cd453092",
+      "port": 30057,
+      "uuid": "298b61ba-015b-4cfc-b04a-1e81ad82be04",
       "flow": "xtls-rprx-vision",
-      "sni": "www.fnac.com",
+      "sni": "www.peugeot.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
@@ -169,14 +169,14 @@
         "31.214.157.41"
       ],
       "ports": [
-        30055
+        30057
       ],
       "cdn": {
-        "host": "131.123.16.84",
+        "host": "131.123.16.90",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "131.123.16.84"
+          "131.123.16.90"
         ]
       },
       "fast": true,
@@ -189,10 +189,10 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30011,
-      "uuid": "b73f618d-c3d9-48b3-b950-75a8cd90d889",
+      "port": 30013,
+      "uuid": "9da55bcc-35d0-4a42-8e65-ff14efa8e9a2",
       "flow": "xtls-rprx-vision",
-      "sni": "www.nasa.gov",
+      "sni": "www.cisco.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
@@ -200,14 +200,14 @@
         "31.214.157.41"
       ],
       "ports": [
-        30011
+        30013
       ],
       "cdn": {
-        "host": "131.123.16.218",
+        "host": "131.123.16.46",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "131.123.16.218"
+          "131.123.16.46"
         ]
       },
       "relayed": true,
@@ -219,10 +219,10 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30065,
-      "uuid": "3d40bab8-edb1-4e92-bf6d-7dd982ebd744",
+      "port": 30067,
+      "uuid": "472512cb-6c58-4207-aebb-9553f4449439",
       "flow": "xtls-rprx-vision",
-      "sni": "www.bestbuy.ca",
+      "sni": "www.theglobeandmail.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
@@ -230,15 +230,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30065
+        30067
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.16.170",
+        "host": "131.123.16.82",
         "path": "/ia3bfj3q7dx",
         "port": 443,
         "ips": [
-          "131.123.16.170"
+          "131.123.16.82"
         ]
       },
       "relayed": true,
@@ -250,10 +250,10 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30027,
-      "uuid": "87dac6d8-dc53-4449-8c26-eeaac843640f",
+      "port": 30029,
+      "uuid": "f60e1463-8d73-4897-9502-05157883944b",
       "flow": "xtls-rprx-vision",
-      "sni": "shopee.sg",
+      "sni": "www.courts.com.sg",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
@@ -261,14 +261,14 @@
         "31.214.157.41"
       ],
       "ports": [
-        30027
+        30029
       ],
       "cdn": {
-        "host": "131.123.16.218",
+        "host": "131.123.16.94",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "131.123.16.218"
+          "131.123.16.94"
         ]
       },
       "relayed": true,
@@ -280,10 +280,10 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30040,
-      "uuid": "d39c8ce8-8d0d-4f83-a9ea-717cb0ccc84e",
+      "port": 30042,
+      "uuid": "538ba0df-5bee-4798-8a14-64a04022185b",
       "flow": "xtls-rprx-vision",
-      "sni": "www.mtr.com.hk",
+      "sni": "www.hkex.com.hk",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
@@ -291,15 +291,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30040
+        30042
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.16.51",
+        "host": "131.123.16.42",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "131.123.16.51"
+          "131.123.16.42"
         ]
       },
       "relayed": true,
@@ -311,10 +311,10 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30037,
-      "uuid": "0e205e88-4165-4d3d-a95c-69a658b2532c",
+      "port": 30039,
+      "uuid": "bf8eba3c-c01c-4157-8fa1-f0fb05903060",
       "flow": "xtls-rprx-vision",
-      "sni": "www.rakuten.co.jp",
+      "sni": "www.docomo.ne.jp",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
@@ -322,15 +322,15 @@
         "31.214.157.41"
       ],
       "ports": [
-        30037
+        30039
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.16.170",
+        "host": "131.123.16.46",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "131.123.16.170"
+          "131.123.16.46"
         ]
       },
       "relayed": true,
