@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1791059797,
+  "updated_at": 1791059836,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -74,10 +74,10 @@
       ]
     },
     "auto_order": [
-      "ca-1",
-      "nl-1",
       "fr-1",
+      "nl-1",
       "de-1",
+      "ca-1",
       "us-1",
       "sg-1",
       "jp-1",
@@ -96,37 +96,37 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30076,
-      "uuid": "490cc075-3803-4a16-bffe-6711d4f3ab20",
+      "port": 30079,
+      "uuid": "acbcfb06-4336-4176-88a6-45b0ec4cfd8b",
       "flow": "xtls-rprx-vision",
-      "sni": "www.telekom.de",
+      "sni": "www.siemens.com",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30076
+        30079
       ],
       "tier": "free",
       "cdn": {
-        "host": "94.247.42.81",
+        "host": "quietmaplestudio.com",
         "path": "/xvyv9xc2270",
         "port": 443,
         "ips": [
-          "94.247.42.81"
+          "176.10.111.120"
         ]
       },
       "relayed": true,
@@ -138,36 +138,36 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30003,
-      "uuid": "ec2b5281-7fb0-4fc6-9719-0bd4e18cf3bb",
+      "port": 30006,
+      "uuid": "76b753f6-98e3-4b64-9478-9cecbcc731bb",
       "flow": "xtls-rprx-vision",
-      "sni": "www.booking.com",
+      "sni": "www.tudelft.nl",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30003
+        30006
       ],
       "cdn": {
-        "host": "www.quietmaplestudio.com",
+        "host": "94.247.42.56",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "94.247.42.83"
+          "94.247.42.56"
         ]
       },
       "fast": true,
@@ -180,36 +180,36 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30051,
-      "uuid": "6c7c4a0d-cd45-426c-b75c-c061dcee8edb",
+      "port": 30056,
+      "uuid": "3dc84803-f2bf-49c9-9750-90ddfc277bca",
       "flow": "xtls-rprx-vision",
-      "sni": "www.sorbonne-universite.fr",
+      "sni": "www.laposte.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30051
+        30056
       ],
       "cdn": {
-        "host": "176.10.118.200",
+        "host": "www.quietmaplestudio.com",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "176.10.118.200"
+          "94.247.42.83"
         ]
       },
       "fast": true,
@@ -222,29 +222,29 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30017,
-      "uuid": "6ad705a7-b36c-4f4e-9798-c2f79cd2e28e",
+      "port": 30010,
+      "uuid": "66b7d4ad-7171-41c9-a718-e1b71b095ae7",
       "flow": "xtls-rprx-vision",
-      "sni": "www.target.com",
+      "sni": "www.intel.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30017
+        30010
       ],
       "cdn": {
         "host": "quietmaplestudio.com",
@@ -263,37 +263,37 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30061,
-      "uuid": "20512028-d671-43b5-8dd3-61d5c09d53c2",
+      "port": 30064,
+      "uuid": "448f16dc-9ad5-4dea-a09c-95b9c5d709c8",
       "flow": "xtls-rprx-vision",
-      "sni": "www.telus.com",
+      "sni": "www.rogers.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30061
+        30064
       ],
       "tier": "free",
       "cdn": {
-        "host": "quietmaplestudio.com",
+        "host": "www.quietmaplestudio.com",
         "path": "/ia3bfj3q7dx",
         "port": 443,
         "ips": [
-          "176.10.111.120"
+          "94.247.42.83"
         ]
       },
       "relayed": true,
@@ -305,36 +305,36 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30023,
-      "uuid": "c16d3dcf-8690-4ed9-98bf-0b4ef393bbc0",
+      "port": 30026,
+      "uuid": "a0ee614f-4fb4-4b12-abb5-d907e428445b",
       "flow": "xtls-rprx-vision",
-      "sni": "www.gov.sg",
+      "sni": "www.changiairport.com",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30023
+        30026
       ],
       "cdn": {
-        "host": "176.10.119.58",
+        "host": "94.247.42.30",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "176.10.119.58"
+          "94.247.42.30"
         ]
       },
       "relayed": true,
@@ -346,37 +346,37 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30046,
-      "uuid": "9b9a3fa8-035b-497d-9da3-aaf4ddf73620",
+      "port": 30049,
+      "uuid": "558e640d-2123-429f-a358-8d11682f3d2a",
       "flow": "xtls-rprx-vision",
-      "sni": "www.hkust.edu.hk",
+      "sni": "www.cathaypacific.com",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30046
+        30049
       ],
       "tier": "free",
       "cdn": {
-        "host": "94.247.42.30",
+        "host": "94.247.42.56",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "94.247.42.30"
+          "94.247.42.56"
         ]
       },
       "relayed": true,
@@ -388,37 +388,37 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30033,
-      "uuid": "9aeb6e4e-c91d-44e6-b729-4b0f241ec194",
+      "port": 30036,
+      "uuid": "5261d11a-fe0c-4969-986f-e643e3bb7b58",
       "flow": "xtls-rprx-vision",
-      "sni": "www.nikkei.com",
+      "sni": "www.kyoto-u.ac.jp",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
         "103.121.49.221",
-        "103.121.49.136",
         "131.123.1.13",
         "109.202.109.179",
-        "109.202.109.169",
-        "188.95.52.67",
-        "134.19.190.89",
+        "188.95.52.30",
+        "213.152.171.107",
+        "188.95.52.59",
         "134.19.190.123",
         "134.19.190.124",
-        "103.121.49.156",
         "131.123.1.2",
-        "213.152.171.107"
+        "103.121.49.145",
+        "103.121.49.136",
+        "103.121.49.156"
       ],
       "ports": [
-        30033
+        30036
       ],
       "tier": "free",
       "cdn": {
-        "host": "176.10.111.249",
+        "host": "176.10.119.58",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "176.10.111.249"
+          "176.10.119.58"
         ]
       },
       "relayed": true,
