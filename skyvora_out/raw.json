@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1791047188,
+  "updated_at": 1791048995,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -74,10 +74,10 @@
       ]
     },
     "auto_order": [
-      "fr-1",
-      "nl-1",
-      "de-1",
       "ca-1",
+      "nl-1",
+      "fr-1",
+      "de-1",
       "us-1",
       "sg-1",
       "jp-1",
@@ -96,37 +96,37 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30075,
-      "uuid": "32c70758-3013-4269-9c07-116f6e329b13",
+      "port": 30072,
+      "uuid": "a0ff8884-303d-4d0d-81a7-6cc2d59c5f29",
       "flow": "xtls-rprx-vision",
-      "sni": "www.mercedes-benz.de",
+      "sni": "www.tagesschau.de",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30075
+        30072
       ],
       "tier": "free",
       "cdn": {
-        "host": "176.10.111.249",
+        "host": "quietmaplestudio.com",
         "path": "/xvyv9xc2270",
         "port": 443,
         "ips": [
-          "176.10.111.249"
+          "176.10.111.120"
         ]
       },
       "relayed": true,
@@ -138,36 +138,36 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30002,
-      "uuid": "623c33f0-8bf6-4b87-ad29-4c590c3830e7",
+      "port": 30009,
+      "uuid": "bed7fbac-83e8-44eb-aaeb-30d6e708ee7c",
       "flow": "xtls-rprx-vision",
-      "sni": "www.ing.nl",
+      "sni": "www.bijenkorf.nl",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30002
+        30009
       ],
       "cdn": {
-        "host": "94.247.42.56",
+        "host": "94.247.42.188",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "94.247.42.56"
+          "94.247.42.188"
         ]
       },
       "fast": true,
@@ -180,36 +180,36 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30050,
-      "uuid": "84c393bf-a850-48a9-a2dd-1936f3a81b06",
+      "port": 30057,
+      "uuid": "39038749-7e63-4aa9-afd9-76b54d7d6daf",
       "flow": "xtls-rprx-vision",
-      "sni": "www.sfr.fr",
+      "sni": "www.peugeot.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30050
+        30057
       ],
       "cdn": {
-        "host": "94.247.42.188",
+        "host": "94.247.42.56",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "94.247.42.188"
+          "94.247.42.56"
         ]
       },
       "fast": true,
@@ -222,36 +222,36 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30016,
-      "uuid": "0a322e53-3815-454f-8015-c744983288c3",
+      "port": 30013,
+      "uuid": "d6dca97d-c680-4f9a-b213-84ace34fe673",
       "flow": "xtls-rprx-vision",
-      "sni": "www.amd.com",
+      "sni": "www.cisco.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30016
+        30013
       ],
       "cdn": {
-        "host": "quietmaplestudio.com",
+        "host": "94.247.42.188",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "176.10.111.120"
+          "94.247.42.188"
         ]
       },
       "relayed": true,
@@ -263,29 +263,29 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30060,
-      "uuid": "83d3a3d7-184d-4af5-b2ff-77df99f9a755",
+      "port": 30067,
+      "uuid": "9ed68f26-bd92-477f-9cd8-b742266fcce5",
       "flow": "xtls-rprx-vision",
-      "sni": "www.shopify.com",
+      "sni": "www.theglobeandmail.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30060
+        30067
       ],
       "tier": "free",
       "cdn": {
@@ -305,36 +305,36 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30022,
-      "uuid": "d2157a4e-0f86-419f-83b9-438bf5f3d94b",
+      "port": 30029,
+      "uuid": "f44ac1de-1ebb-47c2-b9a0-692af1a7f58f",
       "flow": "xtls-rprx-vision",
-      "sni": "www.straitstimes.com",
+      "sni": "www.courts.com.sg",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30022
+        30029
       ],
       "cdn": {
-        "host": "quietmaplestudio.com",
+        "host": "www.quietmaplestudio.com",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "176.10.111.120"
+          "94.247.42.83"
         ]
       },
       "relayed": true,
@@ -346,37 +346,37 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30045,
-      "uuid": "5c69af3b-d9dc-4397-ae74-a607fe5744b5",
+      "port": 30042,
+      "uuid": "a2ca8f11-9aae-4df7-a74d-b65ef37eb155",
       "flow": "xtls-rprx-vision",
-      "sni": "www.hko.gov.hk",
+      "sni": "www.hkex.com.hk",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30045
+        30042
       ],
       "tier": "free",
       "cdn": {
-        "host": "www.quietmaplestudio.com",
+        "host": "94.247.42.30",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "94.247.42.83"
+          "94.247.42.30"
         ]
       },
       "relayed": true,
@@ -388,37 +388,37 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30032,
-      "uuid": "a25ed28e-8b13-4832-a716-d09ea751c89a",
+      "port": 30039,
+      "uuid": "f19441c1-7433-44f3-a192-a2b6b5ddd693",
       "flow": "xtls-rprx-vision",
-      "sni": "www.nintendo.co.jp",
+      "sni": "www.docomo.ne.jp",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
+        "188.95.52.59",
         "131.123.1.13",
-        "103.121.49.136",
+        "162.249.124.57",
+        "162.249.124.53",
+        "134.19.190.123",
         "188.95.52.30",
-        "103.121.49.156",
-        "131.123.1.2",
         "134.19.190.124",
         "188.95.52.89",
-        "188.95.52.59",
-        "103.121.49.145",
-        "162.249.124.57",
+        "131.123.1.2",
         "134.19.190.89",
-        "162.249.124.53"
+        "103.121.49.145"
       ],
       "ports": [
-        30032
+        30039
       ],
       "tier": "free",
       "cdn": {
-        "host": "quietmaplestudio.com",
+        "host": "176.10.119.58",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "176.10.111.120"
+          "176.10.119.58"
         ]
       },
       "relayed": true,
