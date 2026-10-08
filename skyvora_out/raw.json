@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1791466608,
+  "updated_at": 1791468416,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -14,7 +14,7 @@
     "de-1"
   ],
   "config": {
-    "version": 159,
+    "version": 160,
     "probe": {
       "settle_ms": 1000,
       "timeout_ms": 15000,
@@ -77,7 +77,7 @@
       "enabled": true,
       "grace_hours": 24,
       "app_open": {
-        "enabled": true,
+        "enabled": false,
         "unit": "ca-app-pub-7527716300884774/7668776375",
         "timeout_ms": 5000,
         "session_gap_s": 0,
@@ -153,37 +153,37 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30073,
-      "uuid": "adc1c55a-78c0-4176-809f-63c798609a09",
+      "port": 30075,
+      "uuid": "b994c4ff-84e8-4aed-b8dc-a58f34468197",
       "flow": "xtls-rprx-vision",
-      "sni": "www.bahn.de",
+      "sni": "www.mercedes-benz.de",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30073
+        30075
       ],
       "tier": "free",
       "cdn": {
-        "host": "176.10.111.59",
+        "host": "84.238.132.222",
         "path": "/xvyv9xc2270",
         "port": 443,
         "ips": [
-          "176.10.111.59"
+          "84.238.132.222"
         ]
       },
       "relayed": true,
@@ -195,36 +195,36 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30000,
-      "uuid": "a21b5a35-7789-4e89-8159-30380e575f0a",
+      "port": 30002,
+      "uuid": "932fdca4-9fec-488d-9fe2-5c24eced953c",
       "flow": "xtls-rprx-vision",
-      "sni": "www.ns.nl",
+      "sni": "www.ing.nl",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30000
+        30002
       ],
       "cdn": {
-        "host": "94.247.42.95",
+        "host": "176.10.111.59",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "94.247.42.95"
+          "176.10.111.59"
         ]
       },
       "fast": true,
@@ -237,29 +237,29 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30058,
-      "uuid": "234483d9-664e-41e4-bbe3-1f0e6f00d4ba",
+      "port": 30050,
+      "uuid": "07beefd2-4d79-49ef-a06b-8be49ec2e7c0",
       "flow": "xtls-rprx-vision",
-      "sni": "www.boursorama.com",
+      "sni": "www.sfr.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30058
+        30050
       ],
       "cdn": {
         "host": "176.10.125.49",
@@ -279,36 +279,36 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30014,
-      "uuid": "c563590c-456d-456b-a2d7-36be92fbd1c0",
+      "port": 30016,
+      "uuid": "fe47368d-0c16-4bf7-8be6-d66d8c299661",
       "flow": "xtls-rprx-vision",
-      "sni": "www.dell.com",
+      "sni": "www.amd.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30014
+        30016
       ],
       "cdn": {
-        "host": "94.247.42.95",
+        "host": "193.24.235.55",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "94.247.42.95"
+          "193.24.235.55"
         ]
       },
       "relayed": true,
@@ -320,37 +320,37 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30068,
-      "uuid": "2bbdce3b-75b1-4836-8246-932ebab6f123",
+      "port": 30060,
+      "uuid": "d3128ed2-5624-486b-99e5-d71558c50683",
       "flow": "xtls-rprx-vision",
-      "sni": "www.bell.ca",
+      "sni": "www.shopify.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30068
+        30060
       ],
       "tier": "free",
       "cdn": {
-        "host": "84.238.132.222",
+        "host": "176.10.111.182",
         "path": "/ia3bfj3q7dx",
         "port": 443,
         "ips": [
-          "84.238.132.222"
+          "176.10.111.182"
         ]
       },
       "relayed": true,
@@ -362,36 +362,36 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30020,
-      "uuid": "40768419-cd06-455d-8765-0f1c3a24215f",
+      "port": 30022,
+      "uuid": "16952e39-753f-4fb9-b10e-a8ba78bf5721",
       "flow": "xtls-rprx-vision",
-      "sni": "www.ntu.edu.sg",
+      "sni": "www.straitstimes.com",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30020
+        30022
       ],
       "cdn": {
-        "host": "94.247.42.239",
+        "host": "84.238.132.222",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "94.247.42.239"
+          "84.238.132.222"
         ]
       },
       "relayed": true,
@@ -403,37 +403,37 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30043,
-      "uuid": "4b80aae9-80da-4b93-82bd-f8ea73adf338",
+      "port": 30045,
+      "uuid": "e7b915de-4bf9-4980-8e7d-08f45da3bc81",
       "flow": "xtls-rprx-vision",
-      "sni": "www.pccw.com",
+      "sni": "www.hko.gov.hk",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30043
+        30045
       ],
       "tier": "free",
       "cdn": {
-        "host": "84.238.132.222",
+        "host": "193.24.235.32",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "84.238.132.222"
+          "193.24.235.32"
         ]
       },
       "relayed": true,
@@ -445,37 +445,37 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30030,
-      "uuid": "7a7650db-2ace-43a6-8fbe-08f8b71ed68e",
+      "port": 30032,
+      "uuid": "761c3f86-1190-4857-bffa-5f22d7ee7a8c",
       "flow": "xtls-rprx-vision",
-      "sni": "www.au.com",
+      "sni": "www.nintendo.co.jp",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
+        "131.123.1.78",
+        "188.95.52.30",
         "188.95.52.89",
         "131.123.1.150",
         "162.249.124.53",
-        "131.123.1.91",
-        "131.123.1.78",
         "213.152.180.62",
-        "213.152.171.107",
+        "131.123.1.91",
+        "213.152.180.104",
         "131.123.1.252",
-        "213.152.180.53",
-        "188.95.52.67",
         "109.202.109.224",
-        "188.95.52.30"
+        "213.152.180.53",
+        "131.123.1.126"
       ],
       "ports": [
-        30030
+        30032
       ],
       "tier": "free",
       "cdn": {
-        "host": "176.10.111.59",
+        "host": "80.77.25.201",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "176.10.111.59"
+          "80.77.25.201"
         ]
       },
       "relayed": true,
@@ -488,18 +488,18 @@
       "flag": "🇮🇷",
       "protocol": "vless-reality",
       "port": 8443,
-      "uuid": "27169ae4-355a-46ce-a360-5d59f2423cac",
+      "uuid": "0bcb3d38-457e-4cd2-8b5d-8163ad267518",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
       "short_id": "69984b9e02545831",
       "fingerprint": "chrome",
       "endpoints": [
+        "198.16.113.219",
+        "50.7.245.202",
+        "198.16.113.220",
         "198.16.113.221",
         "198.16.113.222",
-        "50.7.245.202",
-        "198.16.113.219",
-        "198.16.113.220",
         "198.16.113.218"
       ],
       "_unhidden": "2026-10-06 owner: path fixed via nl-3 forwarder"
