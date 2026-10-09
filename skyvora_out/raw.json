@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1791546088,
+  "updated_at": 1791547896,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -131,10 +131,10 @@
       "splash_warm": false
     },
     "auto_order": [
-      "fr-1",
-      "nl-1",
-      "de-1",
       "ca-1",
+      "nl-1",
+      "fr-1",
+      "de-1",
       "us-1",
       "sg-1",
       "jp-1",
@@ -159,29 +159,29 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30077,
-      "uuid": "6b8d392d-a314-467c-a5f8-e39b92e83cf4",
+      "port": 30076,
+      "uuid": "eec01851-968b-42d8-a49d-8b3d059a4ae0",
       "flow": "xtls-rprx-vision",
-      "sni": "www.otto.de",
+      "sni": "www.telekom.de",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30077
+        30076
       ],
       "tier": "free",
       "cdn": {
@@ -201,36 +201,36 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30004,
-      "uuid": "80682128-3686-4ac2-ac03-c05f719db72a",
+      "port": 30003,
+      "uuid": "a4a2a63c-9dde-4a09-8a0b-7c832c0a6c34",
       "flow": "xtls-rprx-vision",
-      "sni": "www.ikea.com",
+      "sni": "www.booking.com",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30004
+        30003
       ],
       "cdn": {
-        "host": "94.247.42.234",
+        "host": "94.247.42.250",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "94.247.42.234"
+          "94.247.42.250"
         ]
       },
       "fast": true,
@@ -243,36 +243,36 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30052,
-      "uuid": "825a7ce8-8947-4e44-b665-bf1396193ba2",
+      "port": 30051,
+      "uuid": "9ed4e096-de99-4f6f-91b5-56971668f43b",
       "flow": "xtls-rprx-vision",
-      "sni": "www.free.fr",
+      "sni": "www.sorbonne-universite.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30052
+        30051
       ],
       "cdn": {
-        "host": "94.247.42.142",
+        "host": "94.247.42.250",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "94.247.42.142"
+          "94.247.42.250"
         ]
       },
       "fast": true,
@@ -285,36 +285,36 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30018,
-      "uuid": "65aace01-ef15-4b08-ada4-12fae5723ba0",
+      "port": 30017,
+      "uuid": "aede5e57-87ad-4bd0-921f-94aa6f171295",
       "flow": "xtls-rprx-vision",
-      "sni": "www.cnn.com",
+      "sni": "www.target.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30018
+        30017
       ],
       "cdn": {
-        "host": "94.247.42.250",
+        "host": "94.247.42.234",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "94.247.42.250"
+          "94.247.42.234"
         ]
       },
       "relayed": true,
@@ -326,37 +326,37 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30062,
-      "uuid": "37a35a07-0428-42c5-a69c-0467d1df151d",
+      "port": 30061,
+      "uuid": "45b332e4-6282-432e-bf22-6c85c49a1495",
       "flow": "xtls-rprx-vision",
-      "sni": "www.utoronto.ca",
+      "sni": "www.telus.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30062
+        30061
       ],
       "tier": "free",
       "cdn": {
-        "host": "94.247.42.142",
+        "host": "94.247.42.250",
         "path": "/ia3bfj3q7dx",
         "port": 443,
         "ips": [
-          "94.247.42.142"
+          "94.247.42.250"
         ]
       },
       "relayed": true,
@@ -368,36 +368,36 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30024,
-      "uuid": "f7ef439b-6dc9-4dbc-a82a-d37839409c05",
+      "port": 30023,
+      "uuid": "5ef35dde-23e5-49a6-af17-d0fb7db6c2f6",
       "flow": "xtls-rprx-vision",
-      "sni": "www.singaporeair.com",
+      "sni": "www.gov.sg",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30024
+        30023
       ],
       "cdn": {
-        "host": "94.247.42.250",
+        "host": "94.247.42.142",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "94.247.42.250"
+          "94.247.42.142"
         ]
       },
       "relayed": true,
@@ -409,37 +409,37 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30047,
-      "uuid": "28faee51-2bd1-4082-b7e8-81100bfbf344",
+      "port": 30046,
+      "uuid": "69c62f2c-f6aa-4dfd-a106-1812468ca69f",
       "flow": "xtls-rprx-vision",
-      "sni": "www.hkt.com",
+      "sni": "www.hkust.edu.hk",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30047
+        30046
       ],
       "tier": "free",
       "cdn": {
-        "host": "94.247.42.142",
+        "host": "176.10.111.199",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "94.247.42.142"
+          "176.10.111.199"
         ]
       },
       "relayed": true,
@@ -451,37 +451,37 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30034,
-      "uuid": "fa8ba63c-5561-4575-8808-3a4a71e3809b",
+      "port": 30033,
+      "uuid": "48f0c04e-bab9-450c-b0c5-d9f95b05955d",
       "flow": "xtls-rprx-vision",
-      "sni": "www.panasonic.com",
+      "sni": "www.nikkei.com",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
+        "213.152.171.96",
         "213.152.180.104",
-        "188.95.52.89",
         "134.19.190.120",
+        "188.95.52.89",
+        "188.95.52.59",
+        "188.95.52.53",
+        "103.121.49.221",
         "131.123.1.126",
         "213.152.180.102",
         "131.123.1.252",
-        "131.123.1.13",
         "213.152.180.54",
-        "213.152.171.96",
-        "188.95.52.53",
-        "103.121.49.221",
-        "188.95.52.59"
+        "131.123.1.13"
       ],
       "ports": [
-        30034
+        30033
       ],
       "tier": "free",
       "cdn": {
-        "host": "176.10.111.118",
+        "host": "176.10.111.199",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "176.10.111.118"
+          "176.10.111.199"
         ]
       },
       "relayed": true,
@@ -494,18 +494,18 @@
       "flag": "🇮🇷",
       "protocol": "vless-reality",
       "port": 8443,
-      "uuid": "28c2c9fe-2b66-47f4-ada5-cef730c91f9e",
+      "uuid": "11cccce2-f76a-4a37-96fd-8b7e655008a8",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
       "short_id": "69984b9e02545831",
       "fingerprint": "chrome",
       "endpoints": [
-        "198.16.113.222",
         "50.7.245.202",
         "198.16.113.220",
         "198.16.113.219",
         "198.16.113.218",
+        "198.16.113.222",
         "198.16.113.221"
       ],
       "_unhidden": "2026-10-06 owner: path fixed via nl-3 forwarder"
