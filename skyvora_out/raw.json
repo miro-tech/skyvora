@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1791576838,
+  "updated_at": 1791578642,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -132,10 +132,10 @@
       "splash_warm": false
     },
     "auto_order": [
-      "ca-1",
-      "nl-1",
       "fr-1",
+      "nl-1",
       "de-1",
+      "ca-1",
       "us-1",
       "sg-1",
       "jp-1",
@@ -160,37 +160,37 @@
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
-      "port": 30076,
-      "uuid": "6a868537-303f-4d86-a773-989134a5b164",
+      "port": 30071,
+      "uuid": "0c313467-0f84-43c8-b70a-a59870a5060a",
       "flow": "xtls-rprx-vision",
-      "sni": "www.telekom.de",
+      "sni": "www.zeit.de",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30076
+        30071
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.1.17",
+        "host": "131.123.1.158",
         "path": "/xvyv9xc2270",
         "port": 443,
         "ips": [
-          "131.123.1.17"
+          "131.123.1.158"
         ]
       },
       "relayed": true,
@@ -202,36 +202,36 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 30003,
-      "uuid": "21099b12-64a3-45d7-9d31-c2ccf59ecb1a",
+      "port": 30008,
+      "uuid": "d0603d09-ce09-45b5-bee4-a66b6ffd6a2d",
       "flow": "xtls-rprx-vision",
-      "sni": "www.booking.com",
+      "sni": "www.asml.com",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30003
+        30008
       ],
       "cdn": {
-        "host": "131.123.1.147",
+        "host": "131.123.1.83",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "131.123.1.147"
+          "131.123.1.83"
         ]
       },
       "fast": true,
@@ -244,36 +244,36 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 30051,
-      "uuid": "116637ac-a8cb-4f7e-b645-5de4fe4d0d9e",
+      "port": 30056,
+      "uuid": "55b6d52f-1eeb-4283-8c7f-84af7a417123",
       "flow": "xtls-rprx-vision",
-      "sni": "www.sorbonne-universite.fr",
+      "sni": "www.laposte.fr",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30051
+        30056
       ],
       "cdn": {
-        "host": "131.123.1.32",
+        "host": "131.123.1.97",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "131.123.1.32"
+          "131.123.1.97"
         ]
       },
       "fast": true,
@@ -286,36 +286,36 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 30017,
-      "uuid": "b746ceab-5a8f-4956-8788-7d97d67a8d31",
+      "port": 30012,
+      "uuid": "291a29a1-ae36-4978-8f2b-6c893b6c0601",
       "flow": "xtls-rprx-vision",
-      "sni": "www.target.com",
+      "sni": "www.espn.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30017
+        30012
       ],
       "cdn": {
-        "host": "131.123.1.56",
+        "host": "131.123.1.158",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "131.123.1.56"
+          "131.123.1.158"
         ]
       },
       "relayed": true,
@@ -327,29 +327,29 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 30061,
-      "uuid": "7267f34e-ec8a-4c8a-9266-9c498269943b",
+      "port": 30066,
+      "uuid": "42477a56-6d5d-4a4a-8c63-873850475e54",
       "flow": "xtls-rprx-vision",
-      "sni": "www.telus.com",
+      "sni": "www.lcbo.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30061
+        30066
       ],
       "tier": "free",
       "cdn": {
@@ -369,36 +369,36 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 30023,
-      "uuid": "18105a39-1155-4f32-92df-f91f66d0c18f",
+      "port": 30028,
+      "uuid": "636f03a0-aa20-415e-8564-4f2ba4f3f325",
       "flow": "xtls-rprx-vision",
-      "sni": "www.gov.sg",
+      "sni": "www.carousell.sg",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30023
+        30028
       ],
       "cdn": {
-        "host": "131.123.1.32",
+        "host": "131.123.1.139",
         "path": "/axzfrv47qcn",
         "port": 443,
         "ips": [
-          "131.123.1.32"
+          "131.123.1.139"
         ]
       },
       "relayed": true,
@@ -410,37 +410,37 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 30046,
-      "uuid": "152b4bb6-5a2d-4a5c-ae74-bd8f0b5bf025",
+      "port": 30041,
+      "uuid": "f3e654b5-80a6-41f8-a7e8-d106332e8338",
       "flow": "xtls-rprx-vision",
-      "sni": "www.hkust.edu.hk",
+      "sni": "www.hangseng.com",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30046
+        30041
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.1.238",
+        "host": "131.123.1.247",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "131.123.1.238"
+          "131.123.1.247"
         ]
       },
       "relayed": true,
@@ -452,37 +452,37 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 30033,
-      "uuid": "3adf5fee-4c9a-4f71-a992-828a60e150f2",
+      "port": 30038,
+      "uuid": "bee401b3-8f5b-4ee1-aa83-5a1ca36bdee9",
       "flow": "xtls-rprx-vision",
-      "sni": "www.nikkei.com",
+      "sni": "www.lovelive-anime.jp",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30033
+        30038
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.1.56",
+        "host": "131.123.1.69",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "131.123.1.56"
+          "131.123.1.69"
         ]
       },
       "relayed": true,
@@ -494,37 +494,37 @@
       "country": "ES",
       "flag": "🇪🇸",
       "protocol": "vless-reality",
-      "port": 30081,
-      "uuid": "5c7c4f48-f5c1-47b8-b9e2-74d11b6a282f",
+      "port": 30086,
+      "uuid": "e07ee624-b014-48e7-9bfa-017fd81d1434",
       "flow": "xtls-rprx-vision",
-      "sni": "www.zeit.de",
+      "sni": "www.telekom.de",
       "public_key": "OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI",
       "short_id": "3869d49a9a79e06a",
       "fingerprint": "chrome",
       "endpoints": [
+        "188.95.52.59",
         "213.152.180.102",
         "188.95.52.67",
-        "134.19.190.123",
+        "188.95.52.53",
         "131.123.1.252",
+        "109.202.109.241",
         "213.152.180.62",
         "131.123.1.126",
-        "213.152.180.54",
-        "188.95.52.59",
         "188.95.52.30",
-        "188.95.52.53",
-        "109.202.109.241",
+        "134.19.190.123",
+        "213.152.180.54",
         "188.95.52.116"
       ],
       "ports": [
-        30081
+        30086
       ],
       "tier": "free",
       "cdn": {
-        "host": "131.123.1.158",
+        "host": "131.123.1.171",
         "path": "/b1kvwoiiqyc",
         "port": 443,
         "ips": [
-          "131.123.1.158"
+          "131.123.1.171"
         ]
       },
       "relayed": true,
@@ -537,7 +537,7 @@
       "flag": "🇮🇷",
       "protocol": "vless-reality",
       "port": 8443,
-      "uuid": "bbdbef0b-aab1-45bd-acea-a95e0bec3a00",
+      "uuid": "e98925cf-3a1a-4d21-ad48-67d77a101628",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
@@ -546,10 +546,10 @@
       "endpoints": [
         "50.7.245.202",
         "198.16.113.222",
-        "198.16.113.221",
         "198.16.113.219",
-        "198.16.113.218",
-        "198.16.113.220"
+        "198.16.113.221",
+        "198.16.113.220",
+        "198.16.113.218"
       ],
       "_unhidden": "2026-10-06 owner: path fixed via nl-3 forwarder"
     }
