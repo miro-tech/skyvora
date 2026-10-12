@@ -631,10 +631,11 @@ def main() -> int:
 
     ap.add_argument(
         "--cf-country",
-        default="TM",
+        nargs="+",
+        default=["TM", "AF"],
         help=(
-            'CF-IPCountry header '
-            '(default: TM). '
+            "CF-IPCountry codes. "
+            "Default: TM AF. "
             'Disable: --cf-country ""'
         ),
     )
@@ -677,28 +678,88 @@ def main() -> int:
             "CF-IPCountry: (not set)"
         )
 
+    
     # ========================================================
-    # FETCH
+    # FETCH ALL COUNTRIES
     # ========================================================
 
-    print("fetching...")
+    country_results = []
+    all_servers = []
+    seen_servers = set()
 
-    try:
+    for country in args.cf_country:
+        country = country.strip().upper()
 
-        url, data = try_hosts(
-            device_id,
-            args.cf_country,
-        )
+        print()
+        print("=" * 60)
+        print(f"Fetching country: {country or '(not set)'}")
+        print("=" * 60)
 
-    except Exception as e:
+        try:
+            url, data = try_hosts(
+                device_id,
+                country if country else None,
+            )
+        except Exception as e:
+            print(
+                f"[ERROR] Country {country or '(not set)'}: {e}",
+                file=sys.stderr,
+            )
+            continue
 
-        print(
-            "ERROR:",
-            e,
-            file=sys.stderr,
-        )
+        country_results.append({
+            "country": country or "DEFAULT",
+            "url": url,
+            "data": data,
+        })
 
+        for server in data.get("servers") or []:
+            if not isinstance(server, dict):
+                continue
+
+            key = json.dumps(
+                server,
+                sort_keys=True,
+                ensure_ascii=False,
+            )
+
+            if key not in seen_servers:
+                seen_servers.add(key)
+                all_servers.append(server)
+
+    if not country_results:
+        print("ERROR: all country requests failed", file=sys.stderr)
         return 1
+
+    # Объединяем серверы, сохраняя остальные поля первого ответа.
+    data = dict(country_results[0]["data"])
+    data["servers"] = all_servers
+    data["regions"] = {
+        item["country"]: {
+            "region": item["data"].get("region"),
+            "updated_at": (
+                item["data"].get("updated_at")
+                or item["data"].get("updatedAt")
+            ),
+            "servers": len(item["data"].get("servers") or []),
+            "request_url": item["url"],
+        }
+        for item in country_results
+    }
+
+    # Для совместимости со старым кодом используем первый URL.
+    url = country_results[0]["url"]
+
+    print()
+    print("Country summary:")
+
+    for item in country_results:
+        print(
+            f"  {item['country']}: "
+            f"{len(item['data'].get('servers') or [])} servers"
+        )
+
+    print(f"Unique combined servers: {len(all_servers)}")
 
     # ========================================================
     # OUTPUT DIRECTORY
