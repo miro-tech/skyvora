@@ -632,10 +632,10 @@ def main() -> int:
     ap.add_argument(
         "--cf-country",
         nargs="+",
-        default=["TM", "IR"],
+        default=["TM", "AF"],
         help=(
             "CF-IPCountry codes. "
-            "Default: TM IR. "
+            "Default: TM AF. "
             'Disable: --cf-country ""'
         ),
     )
