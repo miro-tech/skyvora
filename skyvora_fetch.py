@@ -116,7 +116,7 @@ def try_hosts(
 
     headers = {
         "Accept": "application/json",
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 14; Pixel 7 Build/UQ1A)",
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 13; Pixel 7 Build/TQ3A.230805.001)",
     }
 
     if (
@@ -136,7 +136,7 @@ def try_hosts(
 
         candidates.append(
             f"https://{h}{PATH}"
-            f"?d={urllib.parse.quote(device_id)}"
+            f"?d={urllib.parse.quote(device_id)}&v={APP_V}"
         )
 
     for ip in FALLBACK_IPS:
