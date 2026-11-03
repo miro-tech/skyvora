@@ -1,0 +1,686 @@
+{
+  "version": 1,
+  "updated_at": 1793721233,
+  "tier": 0,
+  "region": "TM",
+  "relayed": [
+    "nl-1",
+    "us-1",
+    "sg-1",
+    "fr-1",
+    "es-1",
+    "jp-1",
+    "hk-1",
+    "ca-1",
+    "de-1"
+  ],
+  "config": {
+    "version": 590,
+    "probe": {
+      "settle_ms": 1000,
+      "timeout_ms": 15000,
+      "attempts": 2,
+      "gap_ms": 500,
+      "url": "https://www.gstatic.com/generate_204",
+      "url_alt": "https://cp.cloudflare.com/generate_204"
+    },
+    "pick": {
+      "ip": "first"
+    },
+    "failover": {
+      "enabled": true,
+      "max": 3,
+      "total_budget_ms": 150000,
+      "retry_same": true
+    },
+    "pool": {
+      "size": 8,
+      "siblings": 3,
+      "sibling_order": "list",
+      "fragment": true,
+      "cdn": "first",
+      "cdn_edges": 1,
+      "tolerance_ms": 200,
+      "interval": "1m",
+      "cross_servers": 3,
+      "cross_per_server": 2
+    },
+    "recovery": {
+      "interval_ms": 15000,
+      "checks": 10
+    },
+    "refresh": {
+      "while_connected_min": 10
+    },
+    "messages": {
+      "warn_text": "",
+      "help_url": ""
+    },
+    "emergency": {
+      "cdn_only": true,
+      "auto_skip": []
+    },
+    "api": {
+      "hosts": [
+        "media-assets-637272743690.europe-west1.run.app"
+      ],
+      "ips": [
+        "31.214.157.118"
+      ],
+      "_note_mirrors": "Oct 26 2026: mirror VPS 31.214.157.41 + 80.77.25.249 off since Oct 21, deletion Nov 4/5 (owner: not wanted); their IPs and the 4 d.* mirror hosts (A records on those IPs) removed so the app never calls a recycled IP"
+    },
+    "ads": {
+      "enabled": true,
+      "grace_hours": 24,
+      "app_open": {
+        "enabled": true,
+        "unit": "ca-app-pub-7527716300884774/7668776375",
+        "timeout_ms": 3000,
+        "session_gap_s": 0,
+        "cover": true,
+        "warm": true,
+        "preload": true,
+        "late_show": true,
+        "late_max_s": 0
+      },
+      "rewarded": {
+        "enabled": true,
+        "unit": "ca-app-pub-7527716300884774/2608021383",
+        "turbo_minutes": 120,
+        "daily_max": 10000,
+        "placements": [
+          "home",
+          "servers"
+        ],
+        "load_timeout_ms": 10000,
+        "grant_wait_ms": 25000,
+        "auto_connect": true
+      },
+      "test_devices": [],
+      "adfree": {
+        "enabled": true,
+        "friends": 10,
+        "days": 30,
+        "repeat": true
+      },
+      "while_connected": {
+        "enabled": true,
+        "direct": true,
+        "scope": "all",
+        "domains": [
+          "doubleclick.net",
+          "googlesyndication.com",
+          "googleadservices.com",
+          "googletagservices.com",
+          "adservice.google.com",
+          "fundingchoicesmessages.google.com",
+          "2mdn.net",
+          "unityads.unity3d.com",
+          "vungle.com",
+          "liftoff.io"
+        ],
+        "check_url": "https://www.cloudflare.com/cdn-cgi/trace"
+      }
+    },
+    "launch": {
+      "splash_ms": 3000,
+      "splash_warm": false
+    },
+    "premium": {
+      "enabled": true,
+      "telegram": "Skyvorasupport",
+      "email": "support@skyvora.app",
+      "buy_url": "https://skyvorapremium.vip/premium/",
+      "buy_in_apk": true
+    },
+    "update": {
+      "latest_code": 52,
+      "url": "https://skyvorapremium.vip/download/",
+      "every_hours": 24,
+      "force_cc": [
+        "CN",
+        "IR",
+        "RU",
+        "TM"
+      ],
+      "force_text": {
+        "en": [
+          "🔒 OLD VERSION — update now",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "fa": [
+          "🔒 نسخه قدیمی — آپدیت کنید",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "zh": [
+          "🔒 旧版本 — 请更新",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "ru": [
+          "🔒 Старая версия — обновите",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "tk": [
+          "🔒 Köne wersiýa — täzeläň",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "ar": [
+          "🔒 إصدار قديم — حدّثه",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "my": [
+          "🔒 ဗားရှင်းဟောင်း — အပ်ဒိတ်",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "uk": [
+          "🔒 Стара версія — оновіть",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ],
+        "tr": [
+          "🔒 Eski sürüm — güncelle",
+          "🔒 UPDATE APP → skyvorapremium.vip"
+        ]
+      },
+      "_force_note": "Oct 28 2026 owner: old sideloaded APKs in force_cc get only dead rows until they update | Oct 29 18:58Z owner: same for IR/RU/TM (\"mesle china majbor kon ke noskheye jadido az site begiran\"), page skyvorapremium.vip/download (Globalping IR 6/6, RU 6/6)",
+      "nonplay_cc": [
+        "CN"
+      ],
+      "force_all": true,
+      "force_ip": "45.11.183.191",
+      "force_v0": true
+    },
+    "quota": {
+      "test_devices": [
+        "1926db35b1cb",
+        "46d4971db433",
+        "5bcfdf839960",
+        "3141c6b29398",
+        "754f11bf768e",
+        "1191d67c9e68",
+        "b51338259a9f",
+        "90d4a50bead0",
+        "adb137b1bc5c",
+        "df448e7db04f"
+      ],
+      "coffee_url": "https://premiumkey.vip/?cid=59",
+      "coffee_methods": [
+        "alipay",
+        "wechat",
+        "unionpay",
+        "qq"
+      ],
+      "cta_price": "¥20/月",
+      "coffee_text": "只要 ¥20：Skyvora 高级版 1 个月，不限流量、无广告、Turbo 极速。",
+      "coffee_btn": "¥20 立即开通 1 个月",
+      "over_body": "☕ 只要一杯咖啡的钱（¥20/月），马上恢复连接：不限流量、无广告，不用等到明天。"
+    },
+    "auto_order": [
+      "es-1",
+      "fr-1",
+      "ca-1",
+      "us-1",
+      "sg-1",
+      "jp-1",
+      "hk-1",
+      "nl-1",
+      "de-1"
+    ],
+    "entry_spread": 12,
+    "probe_before_oct7_day": {
+      "settle_ms": 1000,
+      "timeout_ms": 5000,
+      "attempts": 2,
+      "gap_ms": 500
+    },
+    "auto_rotate": [
+      "es-1",
+      "fr-1"
+    ],
+    "entry_per_server": true,
+    "_mainbal_hold_until": 1792433851,
+    "ab3": {
+      "salt": "adtun1",
+      "_why": "Nov 1 2026 owner \"are ye emtehan bokon ro 5%\" (+ \"vase russie va TM ham\"): 1 arm in 20 = 5% of devices send ad requests THROUGH the VPN (while_connected.direct false -> no direct rule) so Google sees a foreign IP; Iranian/Russian real IPs get no ads. Measure in ads.log by arm (FNV-1a(d8:salt) % 20 == 0). Remove ab3 to undo. | Nov 1 01:40 Istanbul owner \"bokon 10%\": arms 0+1 of 20 = 10% (arm 0 = the first 5%).",
+      "arms": [
+        {
+          "name": "adtunnel",
+          "cfg": {
+            "ads": {
+              "while_connected": {
+                "direct": false
+              }
+            }
+          }
+        },
+        {
+          "name": "adtunnel2",
+          "cfg": {
+            "ads": {
+              "while_connected": {
+                "direct": false
+              }
+            }
+          }
+        },
+        {
+          "name": "ctl2"
+        },
+        {
+          "name": "ctl3"
+        },
+        {
+          "name": "ctl4"
+        },
+        {
+          "name": "ctl5"
+        },
+        {
+          "name": "ctl6"
+        },
+        {
+          "name": "ctl7"
+        },
+        {
+          "name": "ctl8"
+        },
+        {
+          "name": "ctl9"
+        },
+        {
+          "name": "ctl10"
+        },
+        {
+          "name": "ctl11"
+        },
+        {
+          "name": "ctl12"
+        },
+        {
+          "name": "ctl13"
+        },
+        {
+          "name": "ctl14"
+        },
+        {
+          "name": "ctl15"
+        },
+        {
+          "name": "ctl16"
+        },
+        {
+          "name": "ctl17"
+        },
+        {
+          "name": "ctl18"
+        },
+        {
+          "name": "ctl19"
+        }
+      ]
+    },
+    "balance_cap": 5
+  },
+  "servers": [
+    {
+      "id": "promo-de-1",
+      "name": "🎁 1 aý Premium mugt: Instagram-da @skyvoravpn-a yazylyň",
+      "country": "DE",
+      "flag": "🇩🇪",
+      "protocol": "vless-reality",
+      "port": 2094,
+      "uuid": "430aa75b-07b2-4a0d-a8b7-b04e6fb7c26f",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
+      "short_id": "55986a94e2228791",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2094
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "188.241.16.25",
+        "path": "/xvyv9xc2270",
+        "port": 443,
+        "ips": [
+          "188.241.16.25"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "de-1",
+      "name": "Germany",
+      "country": "DE",
+      "flag": "🇩🇪",
+      "protocol": "vless-reality",
+      "port": 2094,
+      "uuid": "430aa75b-07b2-4a0d-a8b7-b04e6fb7c26f",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
+      "short_id": "55986a94e2228791",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2094
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "188.241.16.25",
+        "path": "/xvyv9xc2270",
+        "port": 443,
+        "ips": [
+          "188.241.16.25"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "nl-1",
+      "name": "Netherlands",
+      "country": "NL",
+      "flag": "🇳🇱",
+      "protocol": "vless-reality",
+      "port": 2087,
+      "uuid": "0585a440-3e38-4635-8394-d007f8322570",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
+      "short_id": "906609ffc9e8d9fe",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2087
+      ],
+      "cdn": {
+        "host": "62.129.141.254",
+        "path": "/9p624ojqjs3",
+        "port": 443,
+        "ips": [
+          "62.129.141.254"
+        ]
+      },
+      "fast": true,
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "fr-1",
+      "name": "France",
+      "country": "FR",
+      "flag": "🇫🇷",
+      "protocol": "vless-reality",
+      "port": 2092,
+      "uuid": "14d91311-0b80-4b52-b393-9731f212e933",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
+      "short_id": "716b7eba38125f3a",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.78",
+        "131.123.1.22",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2092
+      ],
+      "cdn": {
+        "host": "188.241.16.18",
+        "path": "/lmgdif3sk8i",
+        "port": 443,
+        "ips": [
+          "188.241.16.18"
+        ]
+      },
+      "fast": true,
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "us-1",
+      "name": "United States",
+      "country": "US",
+      "flag": "🇺🇸",
+      "protocol": "vless-reality",
+      "port": 2088,
+      "uuid": "fd31f170-6574-4971-9965-669b07417ebf",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
+      "short_id": "66d62ef550107695",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.13",
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252"
+      ],
+      "ports": [
+        2088
+      ],
+      "cdn": {
+        "host": "188.241.16.18",
+        "path": "/kqdyeo2k4b1",
+        "port": 443,
+        "ips": [
+          "188.241.16.18"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "ca-1",
+      "name": "Canada",
+      "country": "CA",
+      "flag": "🇨🇦",
+      "protocol": "vless-reality",
+      "port": 2093,
+      "uuid": "22f3fb26-5154-4bf3-94a1-65806e3f2a7b",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
+      "short_id": "8a9725533854a7e8",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.252",
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2093
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "62.129.141.254",
+        "path": "/ia3bfj3q7dx",
+        "port": 443,
+        "ips": [
+          "62.129.141.254"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "sg-1",
+      "name": "Singapore",
+      "country": "SG",
+      "flag": "🇸🇬",
+      "protocol": "vless-reality",
+      "port": 2089,
+      "uuid": "1d3fabdb-1224-4eae-a956-739170dd01b8",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
+      "short_id": "deccc6fac1ddb0ff",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2089
+      ],
+      "cdn": {
+        "host": "62.129.141.252",
+        "path": "/axzfrv47qcn",
+        "port": 443,
+        "ips": [
+          "62.129.141.252"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "hk-1",
+      "name": "Hong Kong",
+      "country": "HK",
+      "flag": "🇭🇰",
+      "protocol": "vless-reality",
+      "port": 2091,
+      "uuid": "59ba0dc1-0d25-4e13-abc0-64aa2ebc4590",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
+      "short_id": "08a4b1f473932632",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2091
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "62.129.141.253",
+        "path": "/zmeadqv620k",
+        "port": 443,
+        "ips": [
+          "62.129.141.253"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "jp-1",
+      "name": "Japan",
+      "country": "JP",
+      "flag": "🇯🇵",
+      "protocol": "vless-reality",
+      "port": 2090,
+      "uuid": "889afff6-4750-495e-8e15-5d5db485388f",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
+      "short_id": "bb472a184677af64",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2090
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "62.129.141.251",
+        "path": "/pmcxbjzdau6",
+        "port": 443,
+        "ips": [
+          "62.129.141.251"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "es-1",
+      "name": "Spain",
+      "country": "ES",
+      "flag": "🇪🇸",
+      "protocol": "vless-reality",
+      "port": 2095,
+      "uuid": "3a65c926-5e6c-40cb-988c-eb85d3ba34ea",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI",
+      "short_id": "3869d49a9a79e06a",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "131.123.1.22",
+        "131.123.1.78",
+        "131.123.1.252",
+        "131.123.1.13"
+      ],
+      "ports": [
+        2095
+      ],
+      "tier": "free",
+      "cdn": {
+        "host": "62.129.141.254",
+        "path": "/b1kvwoiiqyc",
+        "port": 443,
+        "ips": [
+          "62.129.141.254"
+        ]
+      },
+      "relayed": true,
+      "hop": "domestic"
+    },
+    {
+      "id": "ir-3",
+      "name": "Iran",
+      "country": "IR",
+      "flag": "🇮🇷",
+      "protocol": "vless-reality",
+      "port": 8443,
+      "uuid": "eb6fbbdd-669b-4055-9379-4eeba938578a",
+      "flow": "xtls-rprx-vision",
+      "sni": "www.apple.com",
+      "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
+      "short_id": "69984b9e02545831",
+      "fingerprint": "chrome",
+      "endpoints": [
+        "50.7.245.202",
+        "198.16.113.221",
+        "198.16.113.219",
+        "198.16.113.222",
+        "198.16.113.218",
+        "198.16.113.220"
+      ],
+      "_unhidden": "2026-10-06 owner: path fixed via nl-3 forwarder"
+    }
+  ]
+}
