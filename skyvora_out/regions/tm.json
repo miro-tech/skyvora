@@ -1,26 +1,19 @@
 {
   "version": 1,
-  "updated_at": 1795046878,
+  "updated_at": 1795048691,
   "tier": 0,
-  "region": "TM",
+  "region": "GB",
   "relayed": [
-    "nl-1",
-    "us-1",
-    "sg-1",
-    "fr-1",
-    "es-1",
-    "jp-1",
-    "hk-1",
-    "ca-1",
     "de-1"
   ],
+  "recommended": "nl-1",
   "config": {
-    "version": 868,
+    "version": 32,
     "probe": {
-      "settle_ms": 1000,
-      "timeout_ms": 15000,
-      "attempts": 2,
-      "gap_ms": 500,
+      "settle_ms": 1500,
+      "timeout_ms": 5000,
+      "attempts": 3,
+      "gap_ms": 1000,
       "url": "https://www.gstatic.com/generate_204",
       "url_alt": "https://cp.cloudflare.com/generate_204"
     },
@@ -30,7 +23,7 @@
     "failover": {
       "enabled": true,
       "max": 3,
-      "total_budget_ms": 150000,
+      "total_budget_ms": 90000,
       "retry_same": true
     },
     "pool": {
@@ -38,30 +31,24 @@
       "siblings": 3,
       "sibling_order": "list",
       "fragment": true,
-      "cdn": "first",
-      "cdn_edges": 1,
+      "cdn": "last",
+      "cdn_edges": 2,
       "tolerance_ms": 200,
-      "interval": "1m",
-      "cross_servers": 3,
-      "cross_per_server": 2
+      "interval": "1m"
     },
     "recovery": {
       "interval_ms": 15000,
-      "checks": 10,
-      "watch_interval_s": 15,
-      "rebuild_after_s": 45
+      "checks": 10
     },
     "refresh": {
-      "while_connected_min": 10,
-      "after_connect_s": 15,
-      "_why_after_connect": "Nov 10 2026 owner (hamon lahze listo begir): app 1.2.25+ fetches the list 15 s after connecting; older builds ignore it. CHECK sky-subjail (60 fetches/3h) before a wide release"
+      "while_connected_min": 30
     },
     "messages": {
       "warn_text": "",
       "help_url": ""
     },
     "emergency": {
-      "cdn_only": true,
+      "cdn_only": false,
       "auto_skip": []
     },
     "api": {
@@ -109,7 +96,7 @@
       },
       "while_connected": {
         "enabled": true,
-        "direct": false,
+        "direct": true,
         "scope": "all",
         "domains": [
           "doubleclick.net",
@@ -137,7 +124,7 @@
         "app_open_gap_s": 30,
         "preload": true
       },
-      "connected_only": true,
+      "connected_only": false,
       "gap_s": 900
     },
     "launch": {
@@ -146,15 +133,15 @@
     },
     "premium": {
       "enabled": true,
-      "telegram": "SkyvoraPremiumBot",
+      "telegram": "hossin_dark",
       "email": "support@skyvora.app",
-      "buy_url": "https://t.me/SkyvoraPremiumBot",
+      "buy_url": "https://sk.premiumkey.vip/?mod=shop&cate_id=1",
       "buy_in_apk": true,
       "apk_buy_url": "https://sk.premiumkey.vip/?mod=shop&cate_id=1"
     },
     "update": {
       "latest_code": 52,
-      "url": "https://skyvorapremium.vip/download/",
+      "url": "https://skyvora.app/download/",
       "every_hours": 24,
       "force_cc": [
         "CN",
@@ -273,266 +260,21 @@
       "_why_gate_known": "Nov 15 2026 owner (\"hame apk ha chinan\"): the China rule for a KNOWN app id that stops sending qa=1 (silent rows) now applies worldwide; fresh installs are not affected (isNewApp false until seen)"
     },
     "auto_order": [
-      "fr-1",
-      "es-1",
       "de-1",
       "nl-1",
-      "ca-1",
+      "fr-1",
       "us-1",
+      "ca-1",
       "sg-1",
+      "hk-1",
       "jp-1",
-      "hk-1"
+      "es-1"
     ],
-    "entry_spread": 12,
-    "probe_before_oct7_day": {
-      "settle_ms": 1000,
-      "timeout_ms": 5000,
-      "attempts": 2,
-      "gap_ms": 500
-    },
-    "auto_rotate": [
-      "es-1",
-      "de-1",
-      "fr-1"
-    ],
-    "entry_per_server": true,
-    "_mainbal_hold_until": 1792433851,
-    "ab3": {
-      "salt": "adtun1",
-      "_why": "Nov 1 2026 owner \"are ye emtehan bokon ro 5%\" (+ \"vase russie va TM ham\"): 1 arm in 20 = 5% of devices send ad requests THROUGH the VPN (while_connected.direct false -> no direct rule) so Google sees a foreign IP; Iranian/Russian real IPs get no ads. Measure in ads.log by arm (FNV-1a(d8:salt) % 20 == 0). Remove ab3 to undo. | Nov 1 01:40 Istanbul owner \"bokon 10%\": arms 0+1 of 20 = 10% (arm 0 = the first 5%).",
-      "arms": [
-        {
-          "name": "adtunnel",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "adtunnel2",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "adtunnel3",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "adtunnel4",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "adtunnel5",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "adtunnel6",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "adtunnel7",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl7",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl8",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl9",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl10",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl11",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl12",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl13",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl14",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl15",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl16",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl17",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl18",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        },
-        {
-          "name": "ctl19",
-          "cfg": {
-            "ads": {
-              "while_connected": {
-                "direct": false
-              }
-            }
-          }
-        }
-      ],
-      "_why35": "Nov 3 2026 owner: 35% (arms 0-6) ads through the tunnel",
-      "_why100": "Nov 4 2026 owner: az 35% bokon 100%: every device sends ads through the tunnel"
-    },
-    "balance_cap": 5,
-    "auto_order_manual": true,
-    "reserve": {
-      "v": 1,
-      "enabled": true,
-      "book": 10,
-      "book_days": 7,
-      "race_max": 6,
-      "sleep_max": 2,
-      "tcp_ms": 2500,
-      "budget_ms": 120000,
-      "plain_fetch_ms": 25000,
-      "stick_min": 60,
-      "refresh_min": 5,
-      "bridge": true,
-      "warm": true,
-      "dedupe": true,
-      "skip_same": true,
-      "ttl_days": 60,
-      "active_days": 30
-    },
-    "_why_reserve": "Nov 10 2026: TM rescue ladder (app 1.2.24+): known fronts + FrontBook race, bounded list fetch, sleepers from tm_reserve_assign.json, bridge back. Owner drill passed 17:47-17:49Z. enabled false = off (stores wiped on next live fetch)",
-    "_why_recovery": "Nov 14 2026: TM per-attempt success ~35%; app default rebuild 90 s kept dead tunnels ~2 min per cycle (root-cause workflow). App 5-min rebuild cap unchanged. Undo: delete per_cc.TM.recovery",
     "banner": {
       "enabled": true,
       "sticker": "☕",
-      "title": "Bir käse kofe = bir aý Premium · 0,99 US$",
-      "sub": "Satyn almak üçin basyň",
+      "title": "One coffee = one month of Premium · £0.89",
+      "sub": "Tap to buy now",
       "bg": "#E1B469",
       "fg": "#2A1130",
       "border": "#FFE2A8",
@@ -542,42 +284,130 @@
   "servers": [
     {
       "id": "promo-de-1",
-      "name": "🚀 Täze wersiýa: Google Play-den täzeläň",
+      "name": "🚀 New version ready: update on Google Play",
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
       "port": 2094,
-      "uuid": "dcd33e4d-5c5e-492f-a6f0-1348e96f5588",
+      "uuid": "9217ea5e-fe95-40ce-b0c6-a74b86951b0a",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "66.90.115.122",
+        "50.7.250.82",
+        "50.7.44.26",
+        "66.90.115.123",
+        "50.7.245.218",
+        "198.16.113.222",
+        "38.34.190.208",
+        "213.152.165.199",
+        "198.255.87.222",
+        "50.7.44.27",
+        "66.90.115.134",
+        "198.16.113.220",
+        "67.159.49.36",
+        "38.145.220.39",
+        "198.255.87.218",
+        "198.255.87.98",
+        "67.159.49.26",
+        "67.159.46.133",
+        "50.7.245.211",
+        "66.90.115.131",
+        "213.152.165.201",
+        "213.152.165.206",
+        "66.90.115.126",
+        "213.152.165.197",
+        "66.90.115.130",
+        "50.7.44.18",
+        "213.152.165.205",
+        "198.16.113.219",
+        "67.159.47.238",
+        "67.159.46.134",
+        "66.90.115.133",
+        "198.255.87.219",
+        "198.255.87.221",
+        "50.7.159.146",
+        "213.152.165.204",
+        "50.7.245.220",
+        "50.7.245.206",
+        "67.159.49.28",
+        "67.159.49.29",
+        "213.152.165.198",
+        "67.159.47.235",
+        "38.145.220.38",
+        "67.159.47.234",
+        "50.7.245.212",
+        "198.255.87.226",
+        "67.159.47.237",
+        "213.152.165.200",
+        "50.7.245.214",
+        "50.7.245.210",
+        "50.7.245.205",
+        "50.7.44.22",
+        "67.159.49.37",
+        "67.159.46.130",
+        "213.152.165.195",
+        "213.152.165.202",
+        "50.7.44.20",
+        "213.152.165.196",
+        "67.159.46.132",
+        "50.7.44.21",
+        "38.34.190.209",
+        "38.34.190.212",
+        "67.159.46.131",
+        "38.34.190.211",
+        "50.7.245.204",
+        "198.255.87.230",
+        "38.34.190.207",
+        "50.7.44.29",
+        "66.90.115.125",
+        "50.7.245.203",
+        "213.152.165.194",
+        "50.7.245.222",
+        "67.159.49.27",
+        "67.159.47.236",
+        "67.159.49.35",
+        "198.16.113.218",
+        "67.159.49.30",
+        "50.7.44.30",
+        "213.152.165.203",
+        "38.145.220.58",
+        "50.7.44.28",
+        "67.159.49.34",
+        "66.90.115.124",
+        "198.255.87.229",
+        "198.255.87.228",
+        "198.255.87.220",
+        "50.7.245.219",
+        "50.7.44.19",
+        "67.159.49.38",
+        "50.7.245.221",
+        "66.90.115.132",
+        "198.255.87.227",
+        "38.34.190.21",
+        "38.34.190.210",
+        "50.7.252.50",
+        "50.7.245.213",
+        "198.16.113.221",
+        "50.7.245.202"
       ],
       "ports": [
         2094
       ],
       "tier": "free",
       "cdn": {
-        "host": "89.252.139.93",
+        "host": "cdn-de.skyvora.app",
         "path": "/xvyv9xc2270",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.139.93"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
       },
-      "relayed": true,
-      "hop": "domestic"
+      "relayed": true
     },
     {
       "id": "de-1",
@@ -586,37 +416,125 @@
       "flag": "🇩🇪",
       "protocol": "vless-reality",
       "port": 2094,
-      "uuid": "dcd33e4d-5c5e-492f-a6f0-1348e96f5588",
+      "uuid": "9217ea5e-fe95-40ce-b0c6-a74b86951b0a",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "66.90.115.122",
+        "50.7.250.82",
+        "50.7.44.26",
+        "66.90.115.123",
+        "50.7.245.218",
+        "198.16.113.222",
+        "38.34.190.208",
+        "213.152.165.199",
+        "198.255.87.222",
+        "50.7.44.27",
+        "66.90.115.134",
+        "198.16.113.220",
+        "67.159.49.36",
+        "38.145.220.39",
+        "198.255.87.218",
+        "198.255.87.98",
+        "67.159.49.26",
+        "67.159.46.133",
+        "50.7.245.211",
+        "66.90.115.131",
+        "213.152.165.201",
+        "213.152.165.206",
+        "66.90.115.126",
+        "213.152.165.197",
+        "66.90.115.130",
+        "50.7.44.18",
+        "213.152.165.205",
+        "198.16.113.219",
+        "67.159.47.238",
+        "67.159.46.134",
+        "66.90.115.133",
+        "198.255.87.219",
+        "198.255.87.221",
+        "50.7.159.146",
+        "213.152.165.204",
+        "50.7.245.220",
+        "50.7.245.206",
+        "67.159.49.28",
+        "67.159.49.29",
+        "213.152.165.198",
+        "67.159.47.235",
+        "38.145.220.38",
+        "67.159.47.234",
+        "50.7.245.212",
+        "198.255.87.226",
+        "67.159.47.237",
+        "213.152.165.200",
+        "50.7.245.214",
+        "50.7.245.210",
+        "50.7.245.205",
+        "50.7.44.22",
+        "67.159.49.37",
+        "67.159.46.130",
+        "213.152.165.195",
+        "213.152.165.202",
+        "50.7.44.20",
+        "213.152.165.196",
+        "67.159.46.132",
+        "50.7.44.21",
+        "38.34.190.209",
+        "38.34.190.212",
+        "67.159.46.131",
+        "38.34.190.211",
+        "50.7.245.204",
+        "198.255.87.230",
+        "38.34.190.207",
+        "50.7.44.29",
+        "66.90.115.125",
+        "50.7.245.203",
+        "213.152.165.194",
+        "50.7.245.222",
+        "67.159.49.27",
+        "67.159.47.236",
+        "67.159.49.35",
+        "198.16.113.218",
+        "67.159.49.30",
+        "50.7.44.30",
+        "213.152.165.203",
+        "38.145.220.58",
+        "50.7.44.28",
+        "67.159.49.34",
+        "66.90.115.124",
+        "198.255.87.229",
+        "198.255.87.228",
+        "198.255.87.220",
+        "50.7.245.219",
+        "50.7.44.19",
+        "67.159.49.38",
+        "50.7.245.221",
+        "66.90.115.132",
+        "198.255.87.227",
+        "38.34.190.21",
+        "38.34.190.210",
+        "50.7.252.50",
+        "50.7.245.213",
+        "198.16.113.221",
+        "50.7.245.202"
       ],
       "ports": [
         2094
       ],
       "tier": "free",
       "cdn": {
-        "host": "89.252.139.93",
+        "host": "cdn-de.skyvora.app",
         "path": "/xvyv9xc2270",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.139.93"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
       },
-      "relayed": true,
-      "hop": "domestic"
+      "relayed": true
     },
     {
       "id": "nl-1",
@@ -624,38 +542,43 @@
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
-      "port": 2087,
-      "uuid": "9f28973b-b868-4e10-a3cd-617e813a1926",
+      "port": 443,
+      "uuid": "a70769db-b4ed-4944-a398-90214202930d",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.37",
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "213.152.165.200",
+        "213.152.165.197",
+        "213.152.165.206",
+        "213.152.165.198",
+        "213.152.165.201",
+        "213.152.165.202",
+        "213.152.165.194",
+        "213.152.165.203",
+        "213.152.165.205",
+        "213.152.165.204",
+        "213.152.165.199",
+        "213.152.165.195",
+        "213.152.165.196"
       ],
       "ports": [
-        2087
+        443,
+        2053,
+        2083
       ],
       "cdn": {
-        "host": "89.252.139.93",
+        "host": "cdn.skyvora.app",
         "path": "/9p624ojqjs3",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.139.93"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
       },
-      "fast": true,
-      "relayed": true,
-      "hop": "domestic"
+      "fast": true
     },
     {
       "id": "fr-1",
@@ -663,38 +586,50 @@
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
-      "port": 2092,
-      "uuid": "fc9139e1-573d-4874-b629-d218274fdc12",
+      "port": 443,
+      "uuid": "49bb3ef8-7a5c-45ca-ad26-978375871cc6",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.36",
-        "213.152.171.35",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "198.16.113.222",
+        "50.7.245.214",
+        "198.16.113.221",
+        "50.7.245.205",
+        "50.7.245.218",
+        "50.7.245.211",
+        "50.7.245.206",
+        "50.7.245.219",
+        "50.7.245.213",
+        "50.7.245.210",
+        "50.7.245.222",
+        "198.16.113.220",
+        "198.16.113.219",
+        "50.7.245.203",
+        "50.7.245.202",
+        "50.7.245.204",
+        "50.7.245.221",
+        "50.7.245.220",
+        "50.7.245.212",
+        "198.16.113.218"
       ],
       "ports": [
-        2092
+        443,
+        2053,
+        2083
       ],
       "cdn": {
-        "host": "89.252.139.92",
+        "host": "cdn-fr.skyvora.app",
         "path": "/lmgdif3sk8i",
-        "port": 443,
+        "port": 2096,
         "ips": [
-          "89.252.139.92"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
       },
-      "fast": true,
-      "relayed": true,
-      "hop": "domestic"
+      "fast": true
     },
     {
       "id": "us-1",
@@ -702,37 +637,39 @@
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
-      "port": 2088,
-      "uuid": "d9f56986-f0cc-459a-9839-cdcae60560d0",
+      "port": 443,
+      "uuid": "03654303-0d35-476f-916f-13ba119958b1",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "38.145.220.38",
+        "38.34.190.210",
+        "38.34.190.207",
+        "38.34.190.208",
+        "38.34.190.212",
+        "38.34.190.209",
+        "38.145.220.39",
+        "38.34.190.21",
+        "38.34.190.211",
+        "38.145.220.58"
       ],
       "ports": [
-        2088
+        443,
+        2053,
+        2083
       ],
       "cdn": {
-        "host": "89.252.139.92",
+        "host": "cdn-us.skyvora.app",
         "path": "/kqdyeo2k4b1",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.139.92"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
-      },
-      "relayed": true,
-      "hop": "domestic"
+      }
     },
     {
       "id": "ca-1",
@@ -740,38 +677,41 @@
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
-      "port": 2093,
-      "uuid": "eb280eb9-2dce-45a0-a9e5-d3707fd76373",
+      "port": 443,
+      "uuid": "38d1e8dd-9b1b-4cb3-891b-2e59b43d1cc0",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.25",
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "198.255.87.219",
+        "198.255.87.229",
+        "198.255.87.221",
+        "198.255.87.98",
+        "198.255.87.227",
+        "198.255.87.230",
+        "198.255.87.218",
+        "198.255.87.220",
+        "198.255.87.226",
+        "198.255.87.222",
+        "198.255.87.228"
       ],
       "ports": [
-        2093
+        443,
+        2053,
+        2083
       ],
       "tier": "free",
       "cdn": {
-        "host": "89.252.139.91",
+        "host": "cdn-ca.skyvora.app",
         "path": "/ia3bfj3q7dx",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.139.91"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
-      },
-      "relayed": true,
-      "hop": "domestic"
+      }
     },
     {
       "id": "sg-1",
@@ -779,37 +719,40 @@
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
-      "port": 2089,
-      "uuid": "f12290b0-15ad-45ac-b0b6-3067bc932d33",
+      "port": 443,
+      "uuid": "f6a75cdb-0c3d-4609-bf77-4db70e64f643",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "67.159.49.26",
+        "67.159.49.38",
+        "67.159.49.27",
+        "67.159.49.37",
+        "67.159.49.36",
+        "67.159.49.34",
+        "67.159.49.28",
+        "67.159.49.35",
+        "50.7.252.50",
+        "67.159.49.30",
+        "67.159.49.29"
       ],
       "ports": [
-        2089
+        443,
+        2053,
+        2083
       ],
       "cdn": {
-        "host": "89.252.164.234",
+        "host": "cdn-sg.skyvora.app",
         "path": "/axzfrv47qcn",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.164.234"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
-      },
-      "relayed": true,
-      "hop": "domestic"
+      }
     },
     {
       "id": "hk-1",
@@ -817,38 +760,41 @@
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
-      "port": 2091,
-      "uuid": "03ab3d47-2dc4-419e-8a0a-7de14692f91e",
+      "port": 443,
+      "uuid": "9053e943-ac06-4a99-b076-c68ea60ac465",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "66.90.115.130",
+        "66.90.115.134",
+        "66.90.115.131",
+        "66.90.115.122",
+        "50.7.250.82",
+        "66.90.115.126",
+        "66.90.115.132",
+        "66.90.115.133",
+        "66.90.115.123",
+        "66.90.115.125",
+        "66.90.115.124"
       ],
       "ports": [
-        2091
+        443,
+        2053,
+        2083
       ],
       "tier": "free",
       "cdn": {
-        "host": "89.252.139.93",
+        "host": "cdn-hk.skyvora.app",
         "path": "/zmeadqv620k",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.139.93"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
-      },
-      "relayed": true,
-      "hop": "domestic"
+      }
     },
     {
       "id": "jp-1",
@@ -856,38 +802,41 @@
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
-      "port": 2090,
-      "uuid": "182d247d-705b-45a3-9d00-7b3684119b7d",
+      "port": 443,
+      "uuid": "dedbf676-4ac0-4a42-8dc1-190e75af7482",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "50.7.44.18",
+        "50.7.44.21",
+        "50.7.44.28",
+        "50.7.159.146",
+        "50.7.44.22",
+        "50.7.44.26",
+        "50.7.44.27",
+        "50.7.44.20",
+        "50.7.44.29",
+        "50.7.44.30",
+        "50.7.44.19"
       ],
       "ports": [
-        2090
+        443,
+        2053,
+        2083
       ],
       "tier": "free",
       "cdn": {
-        "host": "89.252.139.91",
+        "host": "cdn-jp.skyvora.app",
         "path": "/pmcxbjzdau6",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.139.91"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
-      },
-      "relayed": true,
-      "hop": "domestic"
+      }
     },
     {
       "id": "es-1",
@@ -895,38 +844,40 @@
       "country": "ES",
       "flag": "🇪🇸",
       "protocol": "vless-reality",
-      "port": 2095,
-      "uuid": "93ad84fe-0d0d-476a-ba0e-c2ae907e841e",
+      "port": 443,
+      "uuid": "03ee5324-ab7d-426c-aa43-858a1de829ee",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI",
       "short_id": "3869d49a9a79e06a",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.35",
-        "213.152.171.36",
-        "213.152.171.37",
-        "213.152.171.25",
-        "213.152.180.62",
-        "213.152.180.54",
-        "131.123.1.31",
-        "213.152.171.3",
-        "131.123.1.33"
+        "67.159.46.134",
+        "67.159.47.234",
+        "67.159.46.130",
+        "67.159.46.131",
+        "67.159.46.132",
+        "67.159.47.238",
+        "67.159.46.133",
+        "67.159.47.235",
+        "67.159.47.237",
+        "67.159.47.236"
       ],
       "ports": [
-        2095
+        443,
+        2053,
+        2083
       ],
       "tier": "free",
       "cdn": {
-        "host": "89.252.164.222",
+        "host": "cdn-es.skyvora.app",
         "path": "/b1kvwoiiqyc",
-        "port": 443,
+        "port": 8443,
         "ips": [
-          "89.252.164.222"
+          "104.21.8.201",
+          "172.67.130.159"
         ]
-      },
-      "relayed": true,
-      "hop": "domestic"
+      }
     },
     {
       "id": "ir-3",
@@ -935,7 +886,7 @@
       "flag": "🇮🇷",
       "protocol": "vless-reality",
       "port": 8443,
-      "uuid": "5ebf5667-a792-4078-93a2-b069b831df6b",
+      "uuid": "8264668a-a62d-42ff-b14a-202ca1579be3",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE",
@@ -943,11 +894,11 @@
       "fingerprint": "chrome",
       "endpoints": [
         "50.7.245.202",
-        "198.16.113.221",
-        "198.16.113.219",
+        "198.16.113.220",
         "198.16.113.218",
+        "198.16.113.219",
         "198.16.113.222",
-        "198.16.113.220"
+        "198.16.113.221"
       ],
       "_unhidden": "2026-10-06 owner: path fixed via nl-3 forwarder"
     }
