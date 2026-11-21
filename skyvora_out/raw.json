@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1795279940,
+  "updated_at": 1795281747,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -290,9 +290,9 @@
       "_why_support": "Nov 20 2026 owner: ba kharide 20 yuan mahane az tose dahandehaye in vpn hemayat konid - support-the-developers wording. Undo: config.json.bak-support-1795142054"
     },
     "auto_order": [
+      "fr-1",
       "es-1",
       "de-1",
-      "fr-1",
       "nl-1",
       "ca-1",
       "us-1",
@@ -565,20 +565,21 @@
       "flag": "🇩🇪",
       "protocol": "vless-reality",
       "port": 2094,
-      "uuid": "c2bb9dac-2781-450c-8635-88b3ef2be797",
+      "uuid": "ab00af05-4f3b-4ef1-b26a-c286d79d53dd",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2094
@@ -597,25 +598,26 @@
     },
     {
       "id": "de-1",
-      "name": "Germany",
+      "name": "⬆️ Google Play-den täzeläň · Germany",
       "country": "DE",
       "flag": "🇩🇪",
       "protocol": "vless-reality",
       "port": 2094,
-      "uuid": "c2bb9dac-2781-450c-8635-88b3ef2be797",
+      "uuid": "ab00af05-4f3b-4ef1-b26a-c286d79d53dd",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
       "short_id": "55986a94e2228791",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2094
@@ -634,35 +636,36 @@
     },
     {
       "id": "nl-1",
-      "name": "Netherlands",
+      "name": "⬆️ Google Play-den täzeläň · Netherlands",
       "country": "NL",
       "flag": "🇳🇱",
       "protocol": "vless-reality",
       "port": 2087,
-      "uuid": "90407ad8-3b89-492e-a3c5-1e1c6fcee79b",
+      "uuid": "f5075aea-cc41-4aad-b186-b49f42aa6893",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
       "short_id": "906609ffc9e8d9fe",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2087
       ],
       "cdn": {
-        "host": "89.252.164.234",
+        "host": "89.252.139.93",
         "path": "/9p624ojqjs3",
         "port": 443,
         "ips": [
-          "89.252.164.234"
+          "89.252.139.93"
         ]
       },
       "fast": true,
@@ -671,25 +674,26 @@
     },
     {
       "id": "fr-1",
-      "name": "France",
+      "name": "⬆️ Google Play-den täzeläň · France",
       "country": "FR",
       "flag": "🇫🇷",
       "protocol": "vless-reality",
       "port": 2092,
-      "uuid": "b5d1c45a-23de-4154-ade3-0dbdb40bb7e6",
+      "uuid": "38ae3266-3fbf-4de7-bb21-3d8c41df9dcc",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
       "short_id": "716b7eba38125f3a",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2092
@@ -708,35 +712,36 @@
     },
     {
       "id": "us-1",
-      "name": "United States",
+      "name": "⬆️ Google Play-den täzeläň · United States",
       "country": "US",
       "flag": "🇺🇸",
       "protocol": "vless-reality",
       "port": 2088,
-      "uuid": "91126b57-442d-4b63-a2c4-c7aebffdab4d",
+      "uuid": "296bc030-6b6e-4c53-b866-ff1e190d4b5f",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
       "short_id": "66d62ef550107695",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2088
       ],
       "cdn": {
-        "host": "89.252.164.234",
+        "host": "89.252.139.93",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "89.252.164.234"
+          "89.252.139.93"
         ]
       },
       "relayed": true,
@@ -744,25 +749,26 @@
     },
     {
       "id": "ca-1",
-      "name": "Canada",
+      "name": "⬆️ Google Play-den täzeläň · Canada",
       "country": "CA",
       "flag": "🇨🇦",
       "protocol": "vless-reality",
       "port": 2093,
-      "uuid": "30ebff70-294d-44f1-a397-ec7e0ddccb60",
+      "uuid": "d7465a7c-1c38-4bd5-a9a3-6143a825f228",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
       "short_id": "8a9725533854a7e8",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2093
@@ -781,25 +787,26 @@
     },
     {
       "id": "sg-1",
-      "name": "Singapore",
+      "name": "⬆️ Google Play-den täzeläň · Singapore",
       "country": "SG",
       "flag": "🇸🇬",
       "protocol": "vless-reality",
       "port": 2089,
-      "uuid": "3ff23c98-6b7b-4ebe-98fa-c6f9c1137f7f",
+      "uuid": "3bbf962d-c373-42b1-916b-925edd4ae4ca",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
       "short_id": "deccc6fac1ddb0ff",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2089
@@ -817,25 +824,26 @@
     },
     {
       "id": "hk-1",
-      "name": "Hong Kong",
+      "name": "⬆️ Google Play-den täzeläň · Hong Kong",
       "country": "HK",
       "flag": "🇭🇰",
       "protocol": "vless-reality",
       "port": 2091,
-      "uuid": "78ba954a-c367-4643-aa2e-332b9ba276b4",
+      "uuid": "c32e0749-965a-44cf-b72a-e89e93d1b450",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
       "short_id": "08a4b1f473932632",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2091
@@ -854,25 +862,26 @@
     },
     {
       "id": "jp-1",
-      "name": "Japan",
+      "name": "⬆️ Google Play-den täzeläň · Japan",
       "country": "JP",
       "flag": "🇯🇵",
       "protocol": "vless-reality",
       "port": 2090,
-      "uuid": "f689cd36-43a2-49d8-9a02-b8695c1a1ab0",
+      "uuid": "89c26cad-db66-4e7e-a666-e29f63c4ba73",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
       "short_id": "bb472a184677af64",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2090
@@ -891,25 +900,26 @@
     },
     {
       "id": "es-1",
-      "name": "Spain",
+      "name": "⬆️ Google Play-den täzeläň · Spain",
       "country": "ES",
       "flag": "🇪🇸",
       "protocol": "vless-reality",
       "port": 2095,
-      "uuid": "2c3418c4-b05e-4e6d-995c-e979f6cb1ac5",
+      "uuid": "e5c7d236-4eb6-4558-9004-50ed95490915",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI",
       "short_id": "3869d49a9a79e06a",
       "fingerprint": "chrome",
       "endpoints": [
-        "213.152.171.5",
+        "131.123.1.33",
         "131.123.1.127",
-        "131.123.1.4",
-        "213.152.171.23",
+        "213.152.171.19",
+        "213.152.180.62",
         "131.123.1.35",
-        "213.152.171.36",
-        "213.152.180.62"
+        "213.152.171.37",
+        "131.123.1.31",
+        "131.123.1.4"
       ],
       "ports": [
         2095
@@ -931,10 +941,10 @@
   "region_results": [
     {
       "country": "TM",
-      "request_url": "https://d.irhgiuj.live/sub/2a2fd40b4f429240933c078a43862344?d=43f59c40-a68f-4af9-99d7-c50f34e07747&v=52",
+      "request_url": "https://d.irhgiuj.live/sub/2a2fd40b4f429240933c078a43862344?d=4ebd343b-717e-4014-96c8-e883249f848d&v=52",
       "data": {
         "version": 1,
-        "updated_at": 1795279940,
+        "updated_at": 1795281747,
         "tier": 0,
         "region": "TM",
         "relayed": [
@@ -1224,9 +1234,9 @@
             "_why_support": "Nov 20 2026 owner: ba kharide 20 yuan mahane az tose dahandehaye in vpn hemayat konid - support-the-developers wording. Undo: config.json.bak-support-1795142054"
           },
           "auto_order": [
+            "fr-1",
             "es-1",
             "de-1",
-            "fr-1",
             "nl-1",
             "ca-1",
             "us-1",
@@ -1499,20 +1509,21 @@
             "flag": "🇩🇪",
             "protocol": "vless-reality",
             "port": 2094,
-            "uuid": "c2bb9dac-2781-450c-8635-88b3ef2be797",
+            "uuid": "ab00af05-4f3b-4ef1-b26a-c286d79d53dd",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
             "short_id": "55986a94e2228791",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2094
@@ -1531,25 +1542,26 @@
           },
           {
             "id": "de-1",
-            "name": "Germany",
+            "name": "⬆️ Google Play-den täzeläň · Germany",
             "country": "DE",
             "flag": "🇩🇪",
             "protocol": "vless-reality",
             "port": 2094,
-            "uuid": "c2bb9dac-2781-450c-8635-88b3ef2be797",
+            "uuid": "ab00af05-4f3b-4ef1-b26a-c286d79d53dd",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
             "short_id": "55986a94e2228791",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2094
@@ -1568,35 +1580,36 @@
           },
           {
             "id": "nl-1",
-            "name": "Netherlands",
+            "name": "⬆️ Google Play-den täzeläň · Netherlands",
             "country": "NL",
             "flag": "🇳🇱",
             "protocol": "vless-reality",
             "port": 2087,
-            "uuid": "90407ad8-3b89-492e-a3c5-1e1c6fcee79b",
+            "uuid": "f5075aea-cc41-4aad-b186-b49f42aa6893",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
             "short_id": "906609ffc9e8d9fe",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2087
             ],
             "cdn": {
-              "host": "89.252.164.234",
+              "host": "89.252.139.93",
               "path": "/9p624ojqjs3",
               "port": 443,
               "ips": [
-                "89.252.164.234"
+                "89.252.139.93"
               ]
             },
             "fast": true,
@@ -1605,25 +1618,26 @@
           },
           {
             "id": "fr-1",
-            "name": "France",
+            "name": "⬆️ Google Play-den täzeläň · France",
             "country": "FR",
             "flag": "🇫🇷",
             "protocol": "vless-reality",
             "port": 2092,
-            "uuid": "b5d1c45a-23de-4154-ade3-0dbdb40bb7e6",
+            "uuid": "38ae3266-3fbf-4de7-bb21-3d8c41df9dcc",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
             "short_id": "716b7eba38125f3a",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2092
@@ -1642,35 +1656,36 @@
           },
           {
             "id": "us-1",
-            "name": "United States",
+            "name": "⬆️ Google Play-den täzeläň · United States",
             "country": "US",
             "flag": "🇺🇸",
             "protocol": "vless-reality",
             "port": 2088,
-            "uuid": "91126b57-442d-4b63-a2c4-c7aebffdab4d",
+            "uuid": "296bc030-6b6e-4c53-b866-ff1e190d4b5f",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
             "short_id": "66d62ef550107695",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2088
             ],
             "cdn": {
-              "host": "89.252.164.234",
+              "host": "89.252.139.93",
               "path": "/kqdyeo2k4b1",
               "port": 443,
               "ips": [
-                "89.252.164.234"
+                "89.252.139.93"
               ]
             },
             "relayed": true,
@@ -1678,25 +1693,26 @@
           },
           {
             "id": "ca-1",
-            "name": "Canada",
+            "name": "⬆️ Google Play-den täzeläň · Canada",
             "country": "CA",
             "flag": "🇨🇦",
             "protocol": "vless-reality",
             "port": 2093,
-            "uuid": "30ebff70-294d-44f1-a397-ec7e0ddccb60",
+            "uuid": "d7465a7c-1c38-4bd5-a9a3-6143a825f228",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
             "short_id": "8a9725533854a7e8",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2093
@@ -1715,25 +1731,26 @@
           },
           {
             "id": "sg-1",
-            "name": "Singapore",
+            "name": "⬆️ Google Play-den täzeläň · Singapore",
             "country": "SG",
             "flag": "🇸🇬",
             "protocol": "vless-reality",
             "port": 2089,
-            "uuid": "3ff23c98-6b7b-4ebe-98fa-c6f9c1137f7f",
+            "uuid": "3bbf962d-c373-42b1-916b-925edd4ae4ca",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
             "short_id": "deccc6fac1ddb0ff",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2089
@@ -1751,25 +1768,26 @@
           },
           {
             "id": "hk-1",
-            "name": "Hong Kong",
+            "name": "⬆️ Google Play-den täzeläň · Hong Kong",
             "country": "HK",
             "flag": "🇭🇰",
             "protocol": "vless-reality",
             "port": 2091,
-            "uuid": "78ba954a-c367-4643-aa2e-332b9ba276b4",
+            "uuid": "c32e0749-965a-44cf-b72a-e89e93d1b450",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
             "short_id": "08a4b1f473932632",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2091
@@ -1788,25 +1806,26 @@
           },
           {
             "id": "jp-1",
-            "name": "Japan",
+            "name": "⬆️ Google Play-den täzeläň · Japan",
             "country": "JP",
             "flag": "🇯🇵",
             "protocol": "vless-reality",
             "port": 2090,
-            "uuid": "f689cd36-43a2-49d8-9a02-b8695c1a1ab0",
+            "uuid": "89c26cad-db66-4e7e-a666-e29f63c4ba73",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
             "short_id": "bb472a184677af64",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2090
@@ -1825,25 +1844,26 @@
           },
           {
             "id": "es-1",
-            "name": "Spain",
+            "name": "⬆️ Google Play-den täzeläň · Spain",
             "country": "ES",
             "flag": "🇪🇸",
             "protocol": "vless-reality",
             "port": 2095,
-            "uuid": "2c3418c4-b05e-4e6d-995c-e979f6cb1ac5",
+            "uuid": "e5c7d236-4eb6-4558-9004-50ed95490915",
             "flow": "xtls-rprx-vision",
             "sni": "www.apple.com",
             "public_key": "OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI",
             "short_id": "3869d49a9a79e06a",
             "fingerprint": "chrome",
             "endpoints": [
-              "213.152.171.5",
+              "131.123.1.33",
               "131.123.1.127",
-              "131.123.1.4",
-              "213.152.171.23",
+              "213.152.171.19",
+              "213.152.180.62",
               "131.123.1.35",
-              "213.152.171.36",
-              "213.152.180.62"
+              "213.152.171.37",
+              "131.123.1.31",
+              "131.123.1.4"
             ],
             "ports": [
               2095
@@ -1867,9 +1887,9 @@
   "regions": {
     "TM": {
       "region": "TM",
-      "updated_at": 1795279940,
+      "updated_at": 1795281747,
       "servers": 10,
-      "request_url": "https://d.irhgiuj.live/sub/2a2fd40b4f429240933c078a43862344?d=43f59c40-a68f-4af9-99d7-c50f34e07747&v=52"
+      "request_url": "https://d.irhgiuj.live/sub/2a2fd40b4f429240933c078a43862344?d=4ebd343b-717e-4014-96c8-e883249f848d&v=52"
     }
   }
 }
