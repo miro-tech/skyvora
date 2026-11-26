@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": 1795704533,
+  "updated_at": 1795706347,
   "tier": 0,
   "region": "TM",
   "relayed": [
@@ -15,7 +15,7 @@
     "de-1"
   ],
   "config": {
-    "version": 947,
+    "version": 948,
     "probe": {
       "settle_ms": 1000,
       "timeout_ms": 15000,
@@ -291,15 +291,15 @@
       "_why_support": "Nov 20 2026 owner: ba kharide 20 yuan mahane az tose dahandehaye in vpn hemayat konid - support-the-developers wording. Undo: config.json.bak-support-1795142054"
     },
     "auto_order": [
-      "fr-1",
       "es-1",
-      "de-1",
+      "fr-1",
       "nl-1",
       "ca-1",
       "us-1",
       "sg-1",
       "jp-1",
-      "hk-1"
+      "hk-1",
+      "de-1"
     ],
     "entry_spread": 12,
     "probe_before_oct7_day": {
@@ -310,7 +310,6 @@
     },
     "auto_rotate": [
       "es-1",
-      "de-1",
       "fr-1"
     ],
     "entry_per_server": true,
@@ -566,7 +565,7 @@
       "flag": "🇩🇪",
       "protocol": "vless-reality",
       "port": 2094,
-      "uuid": "e5d5debe-f743-4e70-bc28-6aa8804ff87e",
+      "uuid": "36f3c09b-07d2-4e17-bb40-bfb21e2c9935",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
@@ -599,7 +598,7 @@
       "flag": "🇩🇪",
       "protocol": "vless-reality",
       "port": 2094,
-      "uuid": "e5d5debe-f743-4e70-bc28-6aa8804ff87e",
+      "uuid": "36f3c09b-07d2-4e17-bb40-bfb21e2c9935",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs",
@@ -632,7 +631,7 @@
       "flag": "🇳🇱",
       "protocol": "vless-reality",
       "port": 2087,
-      "uuid": "cd769dc7-4019-439e-9bae-f50b5331414a",
+      "uuid": "625c62de-6230-461f-9998-8f49b457c479",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0",
@@ -665,7 +664,7 @@
       "flag": "🇫🇷",
       "protocol": "vless-reality",
       "port": 2092,
-      "uuid": "88157827-f494-4c90-9932-66e775c4a406",
+      "uuid": "288960b0-1792-42ac-a976-435b123cdfbc",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI",
@@ -680,11 +679,11 @@
         2092
       ],
       "cdn": {
-        "host": "213.152.180.13",
+        "host": "149.100.70.133",
         "path": "/lmgdif3sk8i",
         "port": 443,
         "ips": [
-          "213.152.180.13"
+          "149.100.70.133"
         ]
       },
       "fast": true,
@@ -698,7 +697,7 @@
       "flag": "🇺🇸",
       "protocol": "vless-reality",
       "port": 2088,
-      "uuid": "ea9b91ee-060f-43a6-9dd1-215c555854f6",
+      "uuid": "9057605b-a55e-471b-975c-ab917c2a6f88",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo",
@@ -713,11 +712,11 @@
         2088
       ],
       "cdn": {
-        "host": "149.100.70.133",
+        "host": "213.152.180.13",
         "path": "/kqdyeo2k4b1",
         "port": 443,
         "ips": [
-          "149.100.70.133"
+          "213.152.180.13"
         ]
       },
       "relayed": true,
@@ -730,7 +729,7 @@
       "flag": "🇨🇦",
       "protocol": "vless-reality",
       "port": 2093,
-      "uuid": "dc4a955c-a79e-450c-9a30-b6809a376755",
+      "uuid": "570457bc-d0d0-4632-8efd-83d45a47c934",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM",
@@ -763,7 +762,7 @@
       "flag": "🇸🇬",
       "protocol": "vless-reality",
       "port": 2089,
-      "uuid": "bbe95d76-6f95-4efd-95a0-1f0edafb98b9",
+      "uuid": "6ce4eccf-1dda-488e-b8b4-afa916824ea7",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34",
@@ -795,7 +794,7 @@
       "flag": "🇭🇰",
       "protocol": "vless-reality",
       "port": 2091,
-      "uuid": "3bae7dc5-f5b1-418d-a276-4f6462f1074b",
+      "uuid": "98a444c7-26d7-4d94-88e3-0a3f0837efbe",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "1N6AW5YuEwBoYcZK5KuugDzBHsa0NKZMT8QI-EmyL0k",
@@ -811,11 +810,11 @@
       ],
       "tier": "free",
       "cdn": {
-        "host": "213.152.180.13",
+        "host": "149.100.70.133",
         "path": "/zmeadqv620k",
         "port": 443,
         "ips": [
-          "213.152.180.13"
+          "149.100.70.133"
         ]
       },
       "relayed": true,
@@ -828,7 +827,7 @@
       "flag": "🇯🇵",
       "protocol": "vless-reality",
       "port": 2090,
-      "uuid": "7ac9c4b4-63a4-414c-860e-bf130fc9fb8d",
+      "uuid": "a089466e-796b-479a-98bb-59db5f047642",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "qBobe6KSNkFLqTPCffcJo0nXgxy-3JKru9WRqY9rkjk",
@@ -844,11 +843,11 @@
       ],
       "tier": "free",
       "cdn": {
-        "host": "213.152.180.13",
+        "host": "89.252.164.222",
         "path": "/pmcxbjzdau6",
         "port": 443,
         "ips": [
-          "213.152.180.13"
+          "89.252.164.222"
         ]
       },
       "relayed": true,
@@ -861,7 +860,7 @@
       "flag": "🇪🇸",
       "protocol": "vless-reality",
       "port": 2095,
-      "uuid": "76e03b28-5052-4652-81e2-b6ff6ab76d74",
+      "uuid": "93d78a04-f3b7-4e30-96aa-96e57f5b00df",
       "flow": "xtls-rprx-vision",
       "sni": "www.apple.com",
       "public_key": "OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI",
@@ -877,11 +876,11 @@
       ],
       "tier": "free",
       "cdn": {
-        "host": "89.252.164.222",
+        "host": "213.152.180.13",
         "path": "/b1kvwoiiqyc",
         "port": 443,
         "ips": [
-          "89.252.164.222"
+          "213.152.180.13"
         ]
       },
       "relayed": true,
